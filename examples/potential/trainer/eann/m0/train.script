@@ -1,0 +1,15 @@
+#!/bin/bash -l
+#SBATCH --job-name=397896bb-4d5e-11ed-9228-525400692cc9-m0
+#SBATCH --partition=k2-gpu
+#SBATCH --time=00:30:00
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem-per-cpu=4G
+#SBATCH --gres=gpu:v100:1
+
+
+conda activate catorch2
+
+
+python -u /users/40247882/repository/EANN/eann --config ./config.yaml train 2>&1 > train.out
+python -u /users/40247882/repository/EANN/eann --config ./config.yaml freeze EANN.pth -o eann_latest_ 2>&1 > freeze.out

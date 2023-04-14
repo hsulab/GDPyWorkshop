@@ -1,0 +1,11 @@
+#!/bin/bash -l
+#SBATCH --job-name=d9952c46-a657-11ed-a18b-525400708c18-group-0
+#SBATCH --partition=k2-medpri
+#SBATCH --time=8:00:00
+#SBATCH --ntasks=64
+
+
+source ~/envs/source_intel-2016.sh
+conda activate catorch2
+
+gdp -p worker.yaml driver frames-d9952c46-a657-11ed-a18b-525400708c18.yaml

@@ -1,0 +1,34 @@
+{
+  "_default": {
+    "1": {
+      "gdir": "gaTask-cand2",
+      "queued": true,
+      "finished": true
+    },
+    "2": {
+      "gdir": "gaTask-cand3",
+      "queued": true,
+      "finished": true
+    },
+    "3": {
+      "gdir": "gaTask-cand4",
+      "queued": true,
+      "finished": true
+    },
+    "4": {
+      "gdir": "gaTask-cand11",
+      "queued": true,
+      "finished": true
+    },
+    "5": {
+      "gdir": "gaTask-cand14",
+      "queued": true,
+      "finished": true
+    },
+    "6": {
+      "gdir": "gaTask-cand16",
+      "queued": true,
+      "finished": true
+    }
+  }
+}

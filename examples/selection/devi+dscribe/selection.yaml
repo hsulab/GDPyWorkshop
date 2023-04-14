@@ -1,0 +1,20 @@
+selection:
+  - method: property
+    properties:
+      max_devi_f: 
+        range: [0.05, 50.50]
+  - method: descriptor
+    descriptor:
+      name: soap
+      species: ["H", "O", "Pt"]
+      rcut : 6.0
+      nmax : 12
+      lmax : 8
+      sigma : 0.3
+      average : inner
+      periodic : true
+    sparsify:
+      method: cur
+      zeta: -1
+      strategy: descent
+    number: [16, 1.0]

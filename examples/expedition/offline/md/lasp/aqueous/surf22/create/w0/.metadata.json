@@ -1,0 +1,9 @@
+{
+  "_default": {
+    "1": {
+      "gdir": "Worker-0-g0",
+      "queued": true,
+      "finished": true
+    }
+  }
+}

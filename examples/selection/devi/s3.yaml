@@ -1,0 +1,13 @@
+selection:
+  - method: property
+    worker: ./worker.yaml
+    properties:
+      forces:
+        range: [10., 30.]
+        metric: 
+          - fabs
+          - max
+      energy:
+        kBT: 3.0
+        sparsify: boltz
+    number: [10, 0.2]

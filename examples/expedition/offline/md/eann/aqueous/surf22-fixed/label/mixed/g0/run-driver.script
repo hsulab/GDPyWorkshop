@@ -1,0 +1,12 @@
+#!/bin/bash -l
+#SBATCH --job-name=47d6ed17-3f6d-11ed-80b5-525400623f77-g0
+#SBATCH --partition=k2-hipri
+#SBATCH --time=0:30:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+
+
+source ~/envs/source_intel-2016.sh
+conda activate catorch2
+
+gdp -p worker.yaml worker frames.xyz

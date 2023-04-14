@@ -1,0 +1,18 @@
+driver:
+  backend: ase
+  init:
+    loginterval: 1
+    min_modify: integrator verlet tmax 4
+    min_style: ExpCellFilter
+  run:
+    constraint: null
+    fmax: 0.05
+    steps: 200
+  task: min
+potential:
+  name: deepmd
+  params:
+    backend: ase
+    model: /mnt/scratch2/users/40247882/ZnCuOx/copper/deepmd/dptrain/m0/graph.pb
+    type_list:
+    - Cu

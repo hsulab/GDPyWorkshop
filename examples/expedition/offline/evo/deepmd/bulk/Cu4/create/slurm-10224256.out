@@ -1,0 +1,551 @@
+Warning: A 'Shared Scratch' link exists but the target is not available on this node
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2022-10-09 21:06:11.940771: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+WARNING:tensorflow:From /mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/importlib/__init__.py:169: UserWarning: The NumPy module was reloaded (imported a second time). This can in some cases result in small but subtle issues and is discouraged.
+  _bootstrap._exec(spec, module)
+2022-10-09 21:06:14.115137: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-09 21:06:14.116155: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-10-09 21:06:14.116173: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-09 21:06:14.116190: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (node164.pri.kelvin2.alces.network): /proc/driver/nvidia/version does not exist
+2022-10-09 21:06:14.116227: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2022-10-09 21:06:14.126320: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 1996340000 Hz
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+----- create a new database -----
+
+
+===== Initial Population Creation =====
+start to create initial population
+finished creating initial population...
+save population 3 to database
+save population size 3 into database...
+----- create a new tmp_folder -----
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 3
+[2, 3, 4]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:15 2022 cand2 cand2 is running...
+OMP: Info #155: KMP_AFFINITY: Initial OS proc set respected: 61
+OMP: Info #216: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #157: KMP_AFFINITY: 1 available OS procs
+OMP: Info #158: KMP_AFFINITY: Uniform topology
+OMP: Info #289: KMP_AFFINITY: topology layer "LL cache" is equivalent to "socket".
+OMP: Info #191: KMP_AFFINITY: 1 socket x 1 core/socket x 1 thread/core (1 total cores)
+OMP: Info #218: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #172: KMP_AFFINITY: OS proc 61 maps to socket 0 core 61 thread 0 
+OMP: Info #254: KMP_AFFINITY: pid 5563 tid 5574 thread 9 bound to OS proc set 61
+OMP: Info #254: KMP_AFFINITY: pid 5563 tid 5563 thread 0 bound to OS proc set 61
+*** run-driver time:   1.7616 ***
+
+
+ ----- start to run structure 3 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:17 2022 cand3 cand3 is running...
+*** run-driver time:   1.2590 ***
+
+
+ ----- start to run structure 4 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:19 2022 cand4 cand4 is running...
+OMP: Info #254: KMP_AFFINITY: pid 5563 tid 5575 thread 10 bound to OS proc set 61
+*** run-driver time:   0.7957 ***
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+Enough candidates or not finished relaxing current generation...
+@@@DriverBasedWorker+inspect
+and2 is finished...
+and3 is finished...
+and4 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0948 ***
+new_frames: 3 energy of the first: -14.86301042211301
+  add relaxed cand 2
+  with raw_score -100000000.0000
+  add relaxed cand 3
+  with raw_score -100000000.0000
+  add relaxed cand 4
+  with raw_score 14.8585
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2022-10-09 21:06:21.859817: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+WARNING:tensorflow:From /mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/importlib/__init__.py:169: UserWarning: The NumPy module was reloaded (imported a second time). This can in some cases result in small but subtle issues and is discouraged.
+  _bootstrap._exec(spec, module)
+2022-10-09 21:06:24.337371: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-09 21:06:24.338914: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-10-09 21:06:24.338940: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-09 21:06:24.338972: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (node164.pri.kelvin2.alces.network): /proc/driver/nvidia/version does not exist
+2022-10-09 21:06:24.339039: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2022-10-09 21:06:24.350202: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 1996340000 Hz
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 1
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+not converged yet...
+
+
+===== update population =====
+OMP: Info #155: KMP_AFFINITY: Initial OS proc set respected: 61
+OMP: Info #216: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #157: KMP_AFFINITY: 1 available OS procs
+OMP: Info #158: KMP_AFFINITY: Uniform topology
+OMP: Info #289: KMP_AFFINITY: topology layer "LL cache" is equivalent to "socket".
+OMP: Info #191: KMP_AFFINITY: 1 socket x 1 core/socket x 1 thread/core (1 total cores)
+OMP: Info #218: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #172: KMP_AFFINITY: OS proc 61 maps to socket 0 core 61 thread 0 
+OMP: Info #254: KMP_AFFINITY: pid 5584 tid 5584 thread 0 bound to OS proc set 61
+
+----- End of Generation -----
+
+StrainMutation Scaling Volume: 48.59316426118178
+CutAndSplicePairing Scaling Volume: 48.59316426118178
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 1 and try to reproduce...
+number before reproduction: 0
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+  generate offspring with pairing: 4 2 
+   after 1 attempts...
+
+
+ ----- start to run structure 11 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:25 2022 cand11 cand11 is running...
+OMP: Info #254: KMP_AFFINITY: pid 5584 tid 5591 thread 9 bound to OS proc set 61
+OMP: Info #254: KMP_AFFINITY: pid 5584 tid 5592 thread 10 bound to OS proc set 61
+*** run-driver time:   1.5806 ***
+
+
+ ----- try to reproduce, count 1, failed 0 -----
+  generate offspring with pairing: 3 4 
+  mutation: strain after 1 attempts...
+
+
+ ----- start to run structure 13 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:27 2022 cand13 cand13 is running...
+*** run-driver time:   1.4848 ***
+
+
+ ----- try to reproduce, count 2, failed 0 -----
+  generate offspring with pairing: 4 3 
+  mutation: strain after 1 attempts...
+
+
+ ----- start to run structure 16 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:29 2022 cand16 cand16 is running...
+*** run-driver time:   1.2315 ***
+3 candidates were reproduced in this run...
+enough jobs are running for the current generation...
+@@@DriverBasedWorker+inspect
+and11 is finished...
+and13 is finished...
+and16 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.1006 ***
+new_frames: 3 energy of the first: -14.862773003720804
+  add relaxed cand 11
+  with raw_score -100000000.0000
+  add relaxed cand 13
+  with raw_score 14.8585
+  add relaxed cand 16
+  with raw_score -100000000.0000
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2022-10-09 21:06:32.589145: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+WARNING:tensorflow:From /mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/importlib/__init__.py:169: UserWarning: The NumPy module was reloaded (imported a second time). This can in some cases result in small but subtle issues and is discouraged.
+  _bootstrap._exec(spec, module)
+2022-10-09 21:06:35.139713: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-09 21:06:35.141275: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-10-09 21:06:35.141308: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-09 21:06:35.141342: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (node164.pri.kelvin2.alces.network): /proc/driver/nvidia/version does not exist
+2022-10-09 21:06:35.141422: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2022-10-09 21:06:35.154373: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 1996340000 Hz
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+not converged yet...
+
+
+===== update population =====
+OMP: Info #155: KMP_AFFINITY: Initial OS proc set respected: 61
+OMP: Info #216: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #157: KMP_AFFINITY: 1 available OS procs
+OMP: Info #158: KMP_AFFINITY: Uniform topology
+OMP: Info #289: KMP_AFFINITY: topology layer "LL cache" is equivalent to "socket".
+OMP: Info #191: KMP_AFFINITY: 1 socket x 1 core/socket x 1 thread/core (1 total cores)
+OMP: Info #218: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #172: KMP_AFFINITY: OS proc 61 maps to socket 0 core 61 thread 0 
+OMP: Info #254: KMP_AFFINITY: pid 5607 tid 5607 thread 0 bound to OS proc set 61
+
+----- End of Generation -----
+
+StrainMutation Scaling Volume: 48.59316426118178
+CutAndSplicePairing Scaling Volume: 48.59316426118178
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 2 and try to reproduce...
+number before reproduction: 0
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+  generate offspring with pairing: 4 2 
+  mutation: soft after 1 attempts...
+
+
+ ----- start to run structure 22 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:37 2022 cand22 cand22 is running...
+OMP: Info #254: KMP_AFFINITY: pid 5607 tid 5614 thread 9 bound to OS proc set 61
+*** run-driver time:   1.6284 ***
+
+
+ ----- try to reproduce, count 1, failed 0 -----
+  generate offspring with pairing: 3 4 
+  mutation: soft after 1 attempts...
+
+
+ ----- start to run structure 25 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:39 2022 cand25 cand25 is running...
+OMP: Info #254: KMP_AFFINITY: pid 5607 tid 5615 thread 10 bound to OS proc set 61
+*** run-driver time:   1.2686 ***
+
+
+ ----- try to reproduce, count 2, failed 0 -----
+  generate offspring with pairing: 2 4 
+  mutation: soft after 1 attempts...
+
+
+ ----- start to run structure 28 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:40 2022 cand28 cand28 is running...
+*** run-driver time:   3.3045 ***
+3 candidates were reproduced in this run...
+enough jobs are running for the current generation...
+@@@DriverBasedWorker+inspect
+and22 is finished...
+and25 is finished...
+and28 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.1267 ***
+new_frames: 3 energy of the first: -14.858200018576046
+  add relaxed cand 22
+  with raw_score -100000000.0000
+  add relaxed cand 25
+  with raw_score -100000000.0000
+  add relaxed cand 28
+  with raw_score -100000000.0000
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2022-10-09 21:06:46.136980: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+WARNING:tensorflow:From /mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/importlib/__init__.py:169: UserWarning: The NumPy module was reloaded (imported a second time). This can in some cases result in small but subtle issues and is discouraged.
+  _bootstrap._exec(spec, module)
+2022-10-09 21:06:48.565265: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-09 21:06:48.566729: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-10-09 21:06:48.566754: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-09 21:06:48.566785: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (node164.pri.kelvin2.alces.network): /proc/driver/nvidia/version does not exist
+2022-10-09 21:06:48.566850: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2022-10-09 21:06:48.577559: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 1996340000 Hz
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 3
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 3
+[-14.858517795924033, -14.86301042211301, -14.858251795834075]
+[-14.858487278270275, -14.862773003720804, -14.858247276204143]
+[-14.858200018576046, -14.678142922755484, -14.863274029246748]
+OMP: Info #155: KMP_AFFINITY: Initial OS proc set respected: 61
+OMP: Info #216: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #157: KMP_AFFINITY: 1 available OS procs
+OMP: Info #158: KMP_AFFINITY: Uniform topology
+OMP: Info #289: KMP_AFFINITY: topology layer "LL cache" is equivalent to "socket".
+OMP: Info #191: KMP_AFFINITY: 1 socket x 1 core/socket x 1 thread/core (1 total cores)
+OMP: Info #218: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #172: KMP_AFFINITY: OS proc 61 maps to socket 0 core 61 thread 0 
+OMP: Info #254: KMP_AFFINITY: pid 5631 tid 5631 thread 0 bound to OS proc set 61
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2022-10-09 21:06:51.933996: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+WARNING:tensorflow:From /mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/deepmd/lib/python3.9/importlib/__init__.py:169: UserWarning: The NumPy module was reloaded (imported a second time). This can in some cases result in small but subtle issues and is discouraged.
+  _bootstrap._exec(spec, module)
+2022-10-09 21:06:54.508125: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-09 21:06:54.509600: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-10-09 21:06:54.509625: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-09 21:06:54.509656: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (node164.pri.kelvin2.alces.network): /proc/driver/nvidia/version does not exist
+2022-10-09 21:06:54.509724: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2022-10-09 21:06:54.521472: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 1996340000 Hz
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 3
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 3
+[-14.858517795924033, -14.86301042211301, -14.858251795834075]
+[-14.858487278270275, -14.862773003720804, -14.858247276204143]
+[-14.858200018576046, -14.678142922755484, -14.863274029246748]
+OMP: Info #155: KMP_AFFINITY: Initial OS proc set respected: 61
+OMP: Info #216: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #157: KMP_AFFINITY: 1 available OS procs
+OMP: Info #158: KMP_AFFINITY: Uniform topology
+OMP: Info #289: KMP_AFFINITY: topology layer "LL cache" is equivalent to "socket".
+OMP: Info #191: KMP_AFFINITY: 1 socket x 1 core/socket x 1 thread/core (1 total cores)
+OMP: Info #218: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #172: KMP_AFFINITY: OS proc 61 maps to socket 0 core 61 thread 0 
+OMP: Info #254: KMP_AFFINITY: pid 5643 tid 5643 thread 0 bound to OS proc set 61

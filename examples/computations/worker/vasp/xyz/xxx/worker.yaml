@@ -1,0 +1,23 @@
+batchsize: 3
+driver:
+  backend: vasp
+  init:
+    ibrion: 1
+  run:
+    constraint: '1'
+    ediffg: -1.0
+    nsw: 4
+  task: min
+potential:
+  name: vasp
+  params:
+    backend: vasp
+    command: mpirun -n 4 /mnt/scratch2/chemistry-apps/dkb01416/vasp/installed/intel-2016/5.4.4-ccc/vasp_gam
+      2>&1 > vasp.out
+    incar: /mnt/scratch2/users/40247882/pbe-oxides/input-files/incars/INCAR_OXIDE_MAG
+    kpts:
+    - 1
+    - 1
+    - 1
+    pp_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential
+    vdw_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential

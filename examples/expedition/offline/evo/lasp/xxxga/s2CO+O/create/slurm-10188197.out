@@ -1,0 +1,786 @@
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+----- create a new database -----
+
+
+===== Initial Population Creation =====
+start to create initial population
+/users/40247882/repository/GDPy/GDPy/builder/randomBuilder.py:266: RuntimeWarning: Too many failed generations, 301 nfailed, 1 ngenerated...
+  warnings.warn(
+finished creating initial population...
+save population 1 to database
+save population size 3 into database...
+----- create a new tmp_folder -----
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 1
+[2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+Use confids as ['cand2']
+bc6e905e-3cf0-11ed-a815-f40270d0068a-cand2 cand2 is running...
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 349, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 319, in run
+    atoms = self._reproduce()
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 719, in _reproduce
+    a3, desc = self.pairing.get_new_individual(parents) # NOTE: this also adds key_value_pairs to a.info
+  File "/users/40247882/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/ga/cutandsplicepairing.py", line 186, in get_new_individual
+    f, m = parents
+TypeError: cannot unpack non-iterable NoneType object

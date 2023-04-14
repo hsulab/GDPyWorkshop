@@ -1,0 +1,22 @@
+@@@DriverBasedWorker+run
+Use confids as ['cand11']
+Use confids as ['cand2']
+cand11: 10188358
+cand2: 10188359
+@@@DriverBasedWorker+inspect
+cand11 is running...
+cand2 is running...
+@@@DriverBasedWorker+inspect
+cand11 is running...
+cand2 is running...
+@@@DriverBasedWorker+retrieve
+@@@DriverBasedWorker+run
+Use confids as ['cand11']
+Use confids as ['cand2']
+@@@DriverBasedWorker+inspect
+cand11 is finished...
+cand2 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0641 ***
+new_frames: 2 -56.09266022

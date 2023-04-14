@@ -1,0 +1,15 @@
+@@@TrainWorker+run
+m0: 10178916
+m1: 10178917
+@@@TrainWorker+inspect
+m0 is running...
+m1 is running...
+@@@TrainWorker+retrieve
+@@@TrainWorker+run
+@@@TrainWorker+inspect
+m0 is finished...
+m1 is finished...
+@@@TrainWorker+retrieve
+@@@TrainWorker+run
+@@@TrainWorker+inspect
+@@@TrainWorker+retrieve

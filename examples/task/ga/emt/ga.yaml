@@ -1,0 +1,48 @@
+task: ga
+database: mydb.db
+system: # generator
+  type: bulk
+  composition: {"Ag": 24}
+  covalent_ratio: 0.5
+  volume: 240
+  cell: []
+  region:
+    phi: [35, 145]
+    chi: [35, 145]
+    psi: [35, 145]
+    a: [3, 50]
+    b: [3, 50]
+    c: [3, 50]
+  splits: # repeat-prob
+    repeats: [[2],[1]]
+    probs: [3,1]
+population:
+  init_size: 3
+  pmut: 1.0 # prob of mutation
+property:
+  target: energy # (total) energy, barrier
+  evaluation: # TODO: some utilities
+convergence:
+  generation: 1
+operators: # here, define a bunch of operators
+  comparator:
+    name: InteratomicDistanceComparator
+    kwargs: 
+      dE: 0.015
+  crossover:
+    #name: CutSpliceCrossover # cluster
+    name: CutAndSplicePairing
+    kwargs:
+      p1: 1.
+      p2: 0.
+      minfrac: 0.15
+  mutation:
+    - name: StrainMutation
+      prob: 1.0
+    - name: SoftMutation
+      prob: 1.0
+select:
+  - method: boltzmann
+    fmax: 1000.
+    boltzmann: 3 # eV
+    number: 2

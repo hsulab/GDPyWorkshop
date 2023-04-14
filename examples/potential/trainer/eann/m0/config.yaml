@@ -1,0 +1,58 @@
+dataset:
+  batchsizes:
+  - - 32
+    - 2
+  style: auto
+  systems:
+  - /users/40247882/repository/GDPy/examples/potential/trainer/eann/m0/dataset/Cu4
+  - /users/40247882/repository/GDPy/examples/potential/trainer/eann/m0/dataset/Cu8
+network:
+  activate: Softplus
+  dropout_p:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  nblock: 1
+  nl:
+  - 256
+  - 128
+  - 64
+  - 32
+  oc_activate": Softplus
+  oc_dropout_p:
+  - 0.0
+  - 0.0
+  oc_loop: 0
+  oc_nblock: 1
+  oc_nl:
+  - 32
+  - 16
+  oc_table_bn": false
+  table_bn: false
+representation:
+  atomtype:
+  - Cu
+  cutoff: 6.0
+  neigh_atoms: 150
+  nipsin: 3
+  norbit: 64
+  nwave: 8
+task:
+  start_table: 1
+  table_coor: 0
+  table_init: 0
+training:
+  batchsize: 32
+  decay_factor: 0.95
+  e_ceff: 1.0
+  end_lr: 1.0e-06
+  epoch: 200
+  final_f: 0.5
+  init_f: 5.0
+  patience_epoch: 50
+  print_batch: 50
+  print_epoch: 10
+  queue_size: 128
+  re_ceff: 0.0
+  start_lr: 0.001

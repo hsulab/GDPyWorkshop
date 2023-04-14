@@ -1,0 +1,79 @@
+collect:
+  boltz:
+    boltzmann: 3
+    fmax: 0.05
+    number:
+    - 256
+    - 0.2
+    random_seed: 1112
+  traj_period: 10
+create:
+  scheduler:
+    backend: slurm
+    environs: 'source ~/envs/source_eann.sh
+
+      conda activate catorch2
+
+      '
+    mem-per-cpu: 4G
+    ntasks: 1
+    partition: k2-hipri
+    time: 00:10:00
+    user_commands: "for i in `seq 5`\ndo\n  gdp -p ./worker.yaml task ./task.yaml\n\
+      done"
+  task:
+    convergence:
+      generation: 2
+    database: mydb.db
+    operators:
+      comparator:
+        kwargs:
+          cos_dist_max: 0.001
+          dE: 1.0
+          rcut: 10.0
+        name: OFPComparator
+      crossover:
+        kwargs:
+          minfrac: 0.15
+          p1: 1.0
+          p2: 0.0
+        name: CutAndSplicePairing
+      mutation:
+      - kwargs:
+          prob: 1.0
+        name: StrainMutation
+      - kwargs:
+          prob: 1.0
+        name: SoftMutation
+    population:
+      init_size: 3
+      pmut: 0.8
+    property:
+      evaluation: null
+      target: energy
+    task: ga
+select:
+- fmax: 0.05
+  method: convergence
+- criteria:
+    method: cur
+    strategy: descent
+    zeta: -1
+  descriptor:
+    average: inner
+    lmax: 8
+    name: soap
+    nmax: 12
+    periodic: true
+    rcut: 6.0
+    sigma: 0.3
+    species:
+    - Cu
+  method: descriptor
+  number:
+  - 256
+  - 1.0
+  random_seed: 1112
+systems:
+- xs
+- xm

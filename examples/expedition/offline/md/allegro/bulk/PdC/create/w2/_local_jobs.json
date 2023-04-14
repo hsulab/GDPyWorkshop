@@ -1,0 +1,17 @@
+{
+  "_default": {
+    "1": {
+      "uid": "3b74a1a0-4d8e-11ed-9e32-525400196bd2",
+      "md5": "33b8f0afbd6ebdb6a24a40b418350112",
+      "gdir": "3b74a1a0-4d8e-11ed-9e32-525400196bd2cand0",
+      "group_number": 0,
+      "wdir_names": [
+        "cand0"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    }
+  }
+}

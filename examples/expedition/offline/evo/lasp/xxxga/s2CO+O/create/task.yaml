@@ -1,0 +1,30 @@
+convergence:
+  generation: 1
+database: mydb.db
+operators:
+  comparator:
+    kwargs:
+      dE: 0.015
+    name: InteratomicDistanceComparator
+  crossover:
+    name: CutAndSplicePairing
+  mutation:
+  - name: RattleMutation
+    prob: 1.0
+    test_dist_to_slab: false
+population:
+  init_size: 3
+  pmut: 1.0
+property:
+  evaluation: null
+  target: energy
+system:
+  composition:
+    H2O: 9
+  covalent_ratio: 0.8
+  substrate: /users/40247882/repository/GDPy/examples/expedition/offline/population/substrate.xyz
+  surfdis:
+  - -1.5
+  - 6.5
+  type: surface
+task: ga

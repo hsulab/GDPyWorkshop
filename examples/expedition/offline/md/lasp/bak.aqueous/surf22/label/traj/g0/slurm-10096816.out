@@ -1,0 +1,7 @@
+Warning: A 'Shared Scratch' link exists but the target is not available on this node
+nframes:  2
+potter:  Vasp
+Atoms(symbols='COPt16OH2OH2OH2OH2OH2OH2OH2OH2OH2', pbc=True, cell=[[5.6102, 0.0, 0.0], [-2.8050999999999986, 4.858575720311458, 0.0], [0.0, 0.0, 18.871]], forces=..., calculator=Vasp(...))
+Atoms(symbols='COPt16OH2OH2OH2OH2OH2OH2OH2OH2OH2', pbc=True, cell=[[5.6102, 0.0, 0.0], [-2.8050999999999986, 4.858575720311458, 0.0], [0.0, 0.0, 18.871]], forces=..., calculator=Vasp(...))
+*** run-driver time:  91.8145 ***
+[-217.25154801, -215.55570112]

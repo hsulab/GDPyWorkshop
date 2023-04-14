@@ -1,0 +1,4 @@
+[init] == local rank: 0, global rank: 0 ==
+ckpt_path:  None
+initpot in convertor:  -5.932856861472682
+!!! Use Loss Function atomic !!!

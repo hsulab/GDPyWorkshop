@@ -1,0 +1,11 @@
+#!/bin/bash -l
+#SBATCH --job-name=a675ecd2-4826-11ed-b9c1-525400623f77-group-0
+#SBATCH --partition=k2-hipri
+#SBATCH --time=00:03:00
+#SBATCH --ntasks=4
+
+
+source ~/envs/source_lasp.sh
+conda activate catorch2
+
+gdp -p worker.yaml driver frames-a675ecd2-4826-11ed-b9c1-525400623f77.yaml

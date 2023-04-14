@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#SBATCH --job-name=990074eb-2ba3-11ed-afaf-525400196bd2-m1
+#SBATCH --partition=k2-hipri
+#SBATCH --time=00:30:00
+#SBATCH --ntasks=1
+#SBATCH --mem-per-cpu=4G
+
+
+conda activate catorch2
+
+
+python -u /users/40247882/repository/EANN/eann --config ./config.yaml train 2>&1 > eann.out
+
+python -u /users/40247882/repository/EANN/eann --config ./config.yaml freeze ./EANN.pth -o eann_latest_

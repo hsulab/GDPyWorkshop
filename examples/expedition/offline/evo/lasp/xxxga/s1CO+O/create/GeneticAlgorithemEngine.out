@@ -1,0 +1,639 @@
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+----- create a new database -----
+
+
+===== Initial Population Creation =====
+start to create initial population
+finished creating initial population...
+save population 3 to database
+save population size 3 into database...
+----- create a new tmp_folder -----
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 3
+[2, 3, 4]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+Use confids as ['cand2']
+89ec13ed-3cf0-11ed-b8bb-f40270d34102-cand2 cand2 is running...
+
+
+ ----- start to run structure 3 -----
+@@@DriverBasedWorker+run
+Use confids as ['cand3']
+8c9b6fda-3cf0-11ed-8bad-f40270d34102-cand3 cand3 is running...
+
+
+ ----- start to run structure 4 -----
+@@@DriverBasedWorker+run
+Use confids as ['cand4']
+8e7f5b06-3cf0-11ed-9b8a-f40270d34102-cand4 cand4 is running...
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+Enough candidates or not finished relaxing current generation...
+@@@DriverBasedWorker+inspect
+cand2 is finished...
+cand3 is finished...
+cand4 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0713 ***
+new_frames: 3 -184.568634
+tags: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6]
+  add relaxed cand 2
+  with raw_score 184.5686
+tags: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6]
+  add relaxed cand 3
+  with raw_score 185.2744
+tags: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6]
+  add relaxed cand 4
+  with raw_score 183.5402
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 1
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+not converged yet...
+
+
+===== update population =====
+
+----- End of Generation -----
+
+CutAndSplicePairing Scaling Volume: 1820.0296674605534
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 1 and try to reproduce...
+number before reproduction: 0
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+  generate offspring with pairing: 3 2 
+  mutation: rattle after 1 attempts...
+
+
+ ----- start to run structure 11 -----
+@@@DriverBasedWorker+run
+Use confids as ['cand11']
+91907f55-3cf0-11ed-817d-f40270d34102-cand11 cand11 is running...
+
+
+ ----- try to reproduce, count 1, failed 0 -----
+  generate offspring with pairing: 3 2 
+  mutation: rattle after 1 attempts...
+
+
+ ----- start to run structure 14 -----
+@@@DriverBasedWorker+run
+Use confids as ['cand14']
+9372f1f7-3cf0-11ed-94c2-f40270d34102-cand14 cand14 is running...
+
+
+ ----- try to reproduce, count 2, failed 0 -----
+  generate offspring with pairing: 3 2 
+  mutation: rattle after 1 attempts...
+
+
+ ----- start to run structure 17 -----
+@@@DriverBasedWorker+run
+Use confids as ['cand17']
+9535e667-3cf0-11ed-b4d7-f40270d34102-cand17 cand17 is running...
+3 candidates were reproduced in this run...
+enough jobs are running for the current generation...
+@@@DriverBasedWorker+inspect
+cand11 is finished...
+cand14 is finished...
+cand17 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0720 ***
+new_frames: 3 -185.3482971
+tags: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6]
+  add relaxed cand 11
+  with raw_score 185.3483
+tags: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6]
+  add relaxed cand 14
+  with raw_score 185.4040
+tags: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6]
+  add relaxed cand 17
+  with raw_score 185.9654
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 2
+[-185.274353, -184.568634, -183.5402069]
+[-185.9653931, -185.4039612, -185.3482971]
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 2
+[-185.274353, -184.568634, -183.5402069]
+[-185.9653931, -185.4039612, -185.3482971]
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 2
+[-185.274353, -184.568634, -183.5402069]
+[-185.9653931, -185.4039612, -185.3482971]
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 2
+[-185.274353, -184.568634, -183.5402069]
+[-185.9653931, -185.4039612, -185.3482971]
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 2
+[-185.274353, -184.568634, -183.5402069]
+[-185.9653931, -185.4039612, -185.3482971]
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 2
+[-185.274353, -184.568634, -183.5402069]
+[-185.9653931, -185.4039612, -185.3482971]
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 2
+[-185.274353, -184.568634, -183.5402069]
+[-185.9653931, -185.4039612, -185.3482971]
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 2
+[-185.274353, -184.568634, -183.5402069]
+[-185.9653931, -185.4039612, -185.3482971]

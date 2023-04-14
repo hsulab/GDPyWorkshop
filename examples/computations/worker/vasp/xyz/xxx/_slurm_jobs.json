@@ -1,0 +1,31 @@
+{
+  "_default": {
+    "1": {
+      "uid": "7da1bd1a-480c-11ed-bc18-525400623f77",
+      "md5": "f4ac4925b46c5b61f1b3b71d66e7c0c9",
+      "gdir": "7da1bd1a-480c-11ed-bc18-525400623f77-group-0",
+      "group_number": 0,
+      "wdir_names": [
+        "cand0",
+        "cand1",
+        "cand2"
+      ],
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "2": {
+      "uid": "7da61cc9-480c-11ed-a338-525400623f77",
+      "md5": "f4ac4925b46c5b61f1b3b71d66e7c0c9",
+      "gdir": "7da61cc9-480c-11ed-a338-525400623f77-group-1",
+      "group_number": 1,
+      "wdir_names": [
+        "cand3",
+        "cand4"
+      ],
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    }
+  }
+}

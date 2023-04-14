@@ -1,0 +1,16 @@
+#!/bin/bash -l
+#SBATCH --job-name=f8294ca3-480e-11ed-ad71-525400708c18-create
+#SBATCH --partition=k2-hipri
+#SBATCH --time=00:10:00
+#SBATCH --ntasks=1
+#SBATCH --mem-per-cpu=4G
+
+
+source ~/envs/source_eann.sh
+conda activate catorch2
+
+
+for i in `seq 5`
+do
+  gdp -p ./worker.yaml task ./task.yaml
+done

@@ -1,0 +1,34 @@
+batchsize: 2
+driver:
+  backend: lammps
+  init:
+    Pdamp: 100
+    Tdamp: 100
+    md_style: nvt
+    pres: 1.0
+    task: md
+    temp: 300
+    timestep: 1.0
+    velocity_seed: 1223
+  run:
+    constraint: lowest 4
+    maxeval: 40
+    maxiter: 20
+  task: md
+potential:
+  name: eann
+  params:
+    backend: lammps
+    command: mpirun -n 2 lmp_cat -in in.lammps 2>&1 > lmp.out
+    directory: LmpMin-worker
+    model: /mnt/scratch2/users/40247882/pbe-oxides/eann-main/m10/ensemble/model-0/eann_1380_lmp_DOUBLE.pt
+    type_list:
+    - C
+    - O
+    - Pt
+scheduler:
+  backend: slurm
+  partition: k2-hipri
+  ntasks: 2
+  time: "00:03:00"
+  environs: "conda activate deepmd\n"

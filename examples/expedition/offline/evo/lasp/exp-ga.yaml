@@ -1,0 +1,53 @@
+dataset: ../../set/
+method: evo
+type_list: ["C", "H", "O", "Pt"]
+systems:
+  s1CO+O:
+    prefix: Pt111s33pop
+    generator:
+      type: surface
+      composition: {"H2O": 6}
+      covalent_ratio: 0.8
+      substrate: ./substrate.xyz
+      surfdis: [-1.5, 6.5]
+    constraint: "lowest 18"
+    kpts: [4, 4, 1]
+  s2CO+O:
+    prefix: Pt111s33pop
+    generator:
+      type: surface
+      composition: {"H2O": 9}
+      covalent_ratio: 0.8
+      substrate: ./substrate.xyz
+      surfdis: [-1.5, 6.5]
+    constraint: "lowest 18"
+    kpts: [4, 4, 1]
+explorations:
+  xxxga:
+    systems: ["s1CO+O", "s2CO+O"]
+    create:
+      task: ./ga.yaml
+      scheduler: ./scheduler.yaml
+    collect:
+      #cand_indices: ":"
+      traj_period: 20 # every 10*dyn_dump_period steps plus last step
+      boltz:
+        fmax: 100.05
+        boltzmann: 3
+        number: [16, 0.2]
+    select: # list of selection procedures
+      - method: descriptor
+        descriptor: # TODO: keep last converged frame?
+          name: soap
+          species: ["C", "H", "O", "Pt"]
+          rcut : 6.0
+          nmax : 12
+          lmax : 8
+          sigma : 0.3
+          average : inner
+          periodic : true
+        criteria:
+          method: cur
+          zeta: -1
+          strategy: descent
+          number: [160, 0.2] # TODO: auto? percent?

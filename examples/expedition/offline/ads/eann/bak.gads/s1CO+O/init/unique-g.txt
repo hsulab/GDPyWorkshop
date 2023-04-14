@@ -1,0 +1,18 @@
+# unique, indices
+# ncandidates 16
+ug0       0         
+ug1       1         
+ug2       2         
+ug3       3         
+ug4       4         
+ug5       5         
+ug6       6         
+ug7       7         
+ug8       8         
+ug9       9         
+ug10      10        
+ug11      11        
+ug12      12        
+ug13      13        
+ug14      14        
+ug15      15        

@@ -1,0 +1,49 @@
+collect:
+  traj_period: 2
+create:
+  driver:
+    backend: external
+    init:
+      Tdamp: 100
+      dump_period: 4
+      md_style: nvt
+      temp:
+      - 150
+      - 300
+      - 600
+      timestep: 2
+    run:
+      steps: 12
+    task: md
+select:
+- criteria:
+    max_devi_e:
+    - 0.01
+    - 0.25
+    max_devi_f:
+    - 0.05
+    - 0.25
+  method: deviation
+  random_seed: 1112
+- criteria:
+    method: cur
+    strategy: descent
+    zeta: -1
+  descriptor:
+    average: inner
+    lmax: 8
+    name: soap
+    nmax: 12
+    periodic: true
+    rcut: 6.0
+    sigma: 0.3
+    species:
+    - C
+    - Pd
+  method: descriptor
+  number:
+  - 2
+  - 0.2
+  random_seed: 1112
+systems:
+- PdC

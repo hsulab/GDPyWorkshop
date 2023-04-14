@@ -1,0 +1,313 @@
+RANDOM SEED: 1112
+Use standard monte carlo...
+===== Simulation Information @Mon Sep  5 23:17:14 2022 =====
+
+----- Region -----
+cell 
+11.9614   0.0000    0.0000    
+-5.9807   10.3589   0.0000    
+0.0000    0.0000    38.5000   
+covalent ratio: 1.0  2.0
+maximum movedisp: 2.0
+use rotation: False
+tags
+O        number:      144
+
+----- Reservoir -----
+Temperature 673.0000 [K] Pressure 0.0010 [atm]
+--- O ---
+Mass 15.999
+Beta 17.2430 [eV-1]
+Cubic Thermal de Broglie Wavelength 0.004763
+Chemical Potential of is -8.2900 [eV]
+
+
+
+===== Initial Minimisation =====
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 336
+energy_stored -2128.5845
+
+
+renew trajectory file
+
+
+===== MC Cycle        0 =====
+
+
+----- run preprocess -----
+
+n_cur_atoms: 336
+*** preprocess time:   4.3665 ***
+
+=== MC Attempt        0 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.58767044060127
+prob exchange 0.5385095815697596
+current attempt is *deletion*
+number of particles: 
+O    number: 144     
+select species with tag 10117
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 335
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 0.0002
+Energy Change 9.4239 [eV]
+Accept Ratio 0.0000
+
+Deletion Probability 0.5696
+energy_stored is   -2128.5845
+step time: 0.6777153015136719
+
+=== MC Attempt        1 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.362559904811389
+prob exchange 0.6199039540773937
+current attempt is *deletion*
+number of particles: 
+O    number: 144     
+select species with tag 10124
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 335
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 0.0002
+Energy Change 10.3573 [eV]
+Accept Ratio 0.0000
+
+Deletion Probability 0.9874
+energy_stored is   -2128.5845
+step time: 0.6914386749267578
+
+=== MC Attempt        2 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.5255555464898147
+prob exchange 0.09026056305793606
+current attempt is *insertion*
+number of particles: 
+O    number: 144     
+current natoms: 336
+natoms: 337
+try to insert species with tag 10144
+momenta:
+[[0.51478903 0.66543597 1.11712432]]
+inserted position: 
+O [-1.07149661  2.45436226 15.21836306]
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 337
+-> optimised position: 
+O [-1.0715   2.45436 15.2184 ]
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 5472.5345
+Energy Change 18.8122 [eV]
+Accept Ratio 0.0000
+
+fail to insert...
+Insertion Probability 0.16052361022268924
+energy_stored is   -2128.5845
+step time: 5.221467971801758
+
+=== MC Attempt        3 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.8798327000876435
+prob exchange 0.920064376825646
+current attempt is *deletion*
+number of particles: 
+O    number: 144     
+select species with tag 10023
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 335
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 0.0002
+Energy Change 9.6678 [eV]
+Accept Ratio 0.0000
+
+Deletion Probability 0.7920
+energy_stored is   -2128.5845
+step time: 0.6853353977203369
+
+=== MC Attempt        4 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.10828676053689523
+prob exchange 0.6018969583927838
+current attempt is *deletion*
+number of particles: 
+O    number: 144     
+select species with tag 10120
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 335
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 0.0002
+Energy Change 9.9985 [eV]
+Accept Ratio 0.0000
+
+Deletion Probability 0.3549
+energy_stored is   -2128.5845
+step time: 0.6777567863464355
+
+
+===== MC Cycle        1 =====
+
+
+----- run preprocess -----
+
+n_cur_atoms: 336
+*** preprocess time:   4.3988 ***
+
+=== MC Attempt        0 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.017972054562746864
+prob exchange 0.7345736444090778
+current attempt is *deletion*
+number of particles: 
+O    number: 144     
+select species with tag 10064
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 335
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 0.0002
+Energy Change 12.1262 [eV]
+Accept Ratio 0.0000
+
+Deletion Probability 0.2580
+energy_stored is   -2128.5845
+step time: 0.6929786205291748
+
+=== MC Attempt        1 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.6932044363391451
+prob exchange 0.7090381523486481
+current attempt is *deletion*
+number of particles: 
+O    number: 144     
+select species with tag 10073
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 335
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 0.0002
+Energy Change 10.9958 [eV]
+Accept Ratio 0.0000
+
+Deletion Probability 0.5175
+energy_stored is   -2128.5845
+step time: 0.6870596408843994
+
+=== MC Attempt        2 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.43682607367437964
+prob exchange 0.7449945694206794
+current attempt is *deletion*
+number of particles: 
+O    number: 144     
+select species with tag 10032
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 335
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 0.0002
+Energy Change 12.1283 [eV]
+Accept Ratio 0.0000
+
+Deletion Probability 0.1593
+energy_stored is   -2128.5845
+step time: 0.6648280620574951
+
+=== MC Attempt        3 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.9443421686702677
+prob exchange 0.5037420743186486
+current attempt is *deletion*
+number of particles: 
+O    number: 144     
+select species with tag 10073
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 335
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 0.0002
+Energy Change 10.9958 [eV]
+Accept Ratio 0.0000
+
+Deletion Probability 0.4458
+energy_stored is   -2128.5845
+step time: 0.6831483840942383
+
+=== MC Attempt        4 ===
+
+----- Monte Carlo INFO -----
+
+selected particle: O
+prob action 0.043264307778833944
+prob exchange 0.07706668591900911
+current attempt is *insertion*
+number of particles: 
+O    number: 144     
+current natoms: 336
+natoms: 337
+try to insert species with tag 10144
+momenta:
+[[ 0.39266295 -0.60817795 -0.98557853]]
+inserted position: 
+O [ 1.62676224  7.74816091 29.05745696]
+
+----- DYNAMICS MIN INFO -----
+
+n_cur_atoms: 337
+-> optimised position: 
+O [ 1.62676  7.74816 29.0575 ]
+
+Volume 3779.1540 Nexatoms 144.0000 CubicWave 0.0048 Coefficient 5472.5345
+Energy Change 18.3011 [eV]
+Accept Ratio 0.0000
+
+fail to insert...
+Insertion Probability 0.22944967390339932
+energy_stored is   -2128.5845
+step time: 1.0195801258087158
+
+
+FINISHED PROPERLY @ Mon Sep  5 23:17:36 2022

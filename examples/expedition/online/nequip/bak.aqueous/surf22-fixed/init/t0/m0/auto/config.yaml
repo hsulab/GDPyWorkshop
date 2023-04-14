@@ -1,0 +1,140 @@
+_jit_bailout_depth: 2
+_jit_fusion_strategy:
+- !!python/tuple
+  - DYNAMIC
+  - 3
+allow_tf32: false
+append: false
+ase_args:
+  format: extxyz
+avg_num_neighbors: 40.92856979370117
+batch_size: 4
+chemical_embedding_irreps_out: 32x0e
+chemical_symbols:
+- C
+- O
+- Pt
+code_commits: {}
+conv_to_output_hidden_irreps_out: 16x0e
+dataloader_num_workers: 0
+dataset: ase
+dataset_extra_fixed_fields:
+  r_max: 6.0
+dataset_file_name: /users/40247882/repository/GDPy/examples/expedition/online/nequip/aqueous/surf22-fixed/init/t0/m0/dataset.xyz
+dataset_seed: 4
+dataset_statistics_stride: 1
+default_dtype: float32
+device: cpu
+e3nn_version: 0.5.0
+early_stopping: null
+early_stopping_kwargs: null
+ema_decay: 0.999
+ema_use_num_updates: true
+end_of_batch_callbacks: []
+end_of_epoch_callbacks: []
+end_of_train_callbacks: []
+equivariance_test: false
+exclude_keys: []
+feature_irreps_hidden: 32x0e+32x1e+32x2e+32x0o+32x1o+32x2o
+final_callbacks: []
+grad_anomaly_mode: false
+init_callbacks: []
+irreps_edge_sh: 1x0e+1x1o+1x2e
+l_max: 2
+learning_rate: 0.01
+log_batch_freq: 1
+log_epoch_freq: 1
+loss_coeffs:
+  forces: 1.0
+  total_energy:
+  - 3.0
+  - L1Loss
+lr_scheduler_kwargs: {}
+lr_scheduler_name: none
+max_epochs: 500
+max_gradient_norm: .inf
+metrics_components: null
+metrics_key: validation_loss
+model_builders:
+- SimpleIrrepsConfig
+- EnergyModel
+- PerSpeciesRescale
+- ForceOutput
+- RescaleEnergyEtc
+model_debug_mode: false
+n_train: 14
+n_val: 2
+nequip_version: 0.5.5
+nonlinearity_type: gate
+num_basis: 8
+num_features: 32
+num_types: 3
+optimizer_kwargs:
+  amsgrad: false
+  betas: !!python/tuple
+  - 0.9
+  - 0.999
+  eps: 1.0e-08
+  weight_decay: 0
+optimizer_name: Adam
+parity: true
+r_max: 6.0
+report_init_validation: true
+root: /users/40247882/repository/GDPy/examples/expedition/online/nequip/aqueous/surf22-fixed/init/t0/m0
+run_name: auto
+save_checkpoint_freq: -1
+save_ema_checkpoint_freq: -1
+seed: 3877
+shuffle: true
+torch_version: !!python/object/new:torch.torch_version.TorchVersion
+- 1.10.1
+train_idcs: !!python/object/apply:torch._utils._rebuild_tensor_v2
+- !!python/object/apply:torch.storage._load_from_bytes
+  - !!binary |
+    gAKKCmz8nEb5IGqoUBkugAJN6QMugAJ9cQAoWBAAAABwcm90b2NvbF92ZXJzaW9ucQFN6QNYDQAA
+    AGxpdHRsZV9lbmRpYW5xAohYCgAAAHR5cGVfc2l6ZXNxA31xBChYBQAAAHNob3J0cQVLAlgDAAAA
+    aW50cQZLBFgEAAAAbG9uZ3EHSwR1dS6AAihYBwAAAHN0b3JhZ2VxAGN0b3JjaApMb25nU3RvcmFn
+    ZQpxAVgOAAAAOTQ1NzQwOTQwMDg0ODBxAlgDAAAAY3B1cQNLEE50cQRRLoACXXEAWA4AAAA5NDU3
+    NDA5NDAwODQ4MHEBYS4QAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAQAAAAAAAAADQAA
+    AAAAAAAIAAAAAAAAAA8AAAAAAAAACwAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAAAAAAAAMAAAA
+    AAAAAAYAAAAAAAAABQAAAAAAAAADAAAAAAAAAAIAAAAAAAAA
+- 0
+- !!python/tuple
+  - 14
+- !!python/tuple
+  - 1
+- false
+- !!python/object/apply:collections.OrderedDict
+  - []
+train_on_keys:
+- forces
+- total_energy
+train_val_split: random
+type_names:
+- C
+- O
+- Pt
+use_ema: false
+val_idcs: !!python/object/apply:torch._utils._rebuild_tensor_v2
+- !!python/object/apply:torch.storage._load_from_bytes
+  - !!binary |
+    gAKKCmz8nEb5IGqoUBkugAJN6QMugAJ9cQAoWBAAAABwcm90b2NvbF92ZXJzaW9ucQFN6QNYDQAA
+    AGxpdHRsZV9lbmRpYW5xAohYCgAAAHR5cGVfc2l6ZXNxA31xBChYBQAAAHNob3J0cQVLAlgDAAAA
+    aW50cQZLBFgEAAAAbG9uZ3EHSwR1dS6AAihYBwAAAHN0b3JhZ2VxAGN0b3JjaApMb25nU3RvcmFn
+    ZQpxAVgOAAAAOTQ1NzQwOTQwMDg0ODBxAlgDAAAAY3B1cQNLEE50cQRRLoACXXEAWA4AAAA5NDU3
+    NDA5NDAwODQ4MHEBYS4QAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAQAAAAAAAAADQAA
+    AAAAAAAIAAAAAAAAAA8AAAAAAAAACwAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAAAAAAAAMAAAA
+    AAAAAAYAAAAAAAAABQAAAAAAAAADAAAAAAAAAAIAAAAAAAAA
+- 14
+- !!python/tuple
+  - 2
+- !!python/tuple
+  - 1
+- false
+- !!python/object/apply:collections.OrderedDict
+  - []
+validation_batch_size: 5
+var_num_neighbors: 8.665246963500977
+verbose: INFO
+wandb: false
+wandb_project: NequIP

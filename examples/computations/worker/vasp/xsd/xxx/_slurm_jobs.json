@@ -1,0 +1,16 @@
+{
+  "_default": {
+    "1": {
+      "uid": "d056ff22-480b-11ed-a455-525400623f77",
+      "md5": "a30af894d508a61d0edf65eaefe8e7b0",
+      "gdir": "d056ff22-480b-11ed-a455-525400623f77-group-0",
+      "group_number": 0,
+      "wdir_names": [
+        "cand0"
+      ],
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+#batchsize: 2
+# - potential
+potential:
+  name: ./emt.py
+  params:
+    backend: ase
+# - driver
+driver:  
+  backend: external
+  # === nvt
+  task: min
+  init:
+    min_style: ExpCellFilter
+  run:
+    steps: 50
+    constraint: "1:9" # NOTE: take care, mutation may wrap atoms
+# - scheduler
+#scheduler:
+#  backend: slurm
+#  partition: k2-hipri
+#  ntasks: 2
+#  time: "00:03:00"
+#  environs: "source ~/envs/source_eann.sh\nconda activate catorch2"

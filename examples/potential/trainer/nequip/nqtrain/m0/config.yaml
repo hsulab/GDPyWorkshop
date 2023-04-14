@@ -1,0 +1,47 @@
+append: true
+ase_args:
+  format: extxyz
+avg_num_neighbors: auto
+batch_size: 4
+chemical_symbols:
+- Cu
+dataset: ase
+dataset_file_name: /users/40247882/repository/GDPy/examples/potential/trainer/nequip/nqtrain/m0/dataset.xyz
+dataset_seed: 6234
+early_stopping_lower_bounds:
+  LR: 1.0e-05
+early_stopping_patiences:
+  validation_loss: 50
+ema_decay: 0.99
+ema_use_num_updates: true
+invariant_layers: 2
+invariant_neurons: 64
+l_max: 2
+learning_rate: 0.005
+log_batch_freq: 10
+log_epoch_freq: 1
+loss_coeffs:
+  forces: 1.0
+  total_energy:
+  - 1.0
+  - PerAtomMSELoss
+max_epochs: 200
+n_train: 921
+n_val: 103
+nonlinearity_type: gate
+num_basis: 8
+num_features: 32
+num_layers: 4
+optimizer_name: Adam
+parity: true
+r_max: 6.0
+root: /users/40247882/repository/GDPy/examples/potential/trainer/nequip/nqtrain/m0
+run_name: auto
+save_checkpoint_freq: -1
+save_ema_checkpoint_freq: -1
+seed: 8302
+use_ema: true
+use_sc: true
+validation_batch_size: 16
+verbose: info
+wandb: false

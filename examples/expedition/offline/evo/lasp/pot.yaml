@@ -1,0 +1,30 @@
+prefix: gaTask
+#batchsize: 2
+# - potential
+potential:
+  name: lasp
+  version: m10m0
+  params:
+    backend: lasp
+    directory: "LaspMin-worker"
+    command: mpirun -n 2 lasp
+    pot:
+      C:  ../../../resources/PtCHO.pot
+      H:  ../../../resources/PtCHO.pot
+      O:  ../../../resources/PtCHO.pot
+      Pt: ../../../resources/PtCHO.pot
+# - driver
+driver:  
+  backend: external # should be compatible with calculator
+  # === nvt
+  task: min
+  run:
+    steps: 50
+    constraint: "1:9" # NOTE: take care, mutation may wrap atoms
+# - machine
+#machine:
+#  backend: slurm
+#  partition: k2-hipri
+#  ntasks: 2
+#  time: "00:03:00"
+#  environs: "source ~/envs/source_eann.sh\nconda activate catorch2"

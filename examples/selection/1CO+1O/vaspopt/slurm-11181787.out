@@ -1,0 +1,24 @@
+/mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand8
+run /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand8
+end /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand8
+converged:  True
+/mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand3
+run /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand3
+end /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand3
+converged:  True
+/mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand1
+run /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand1
+end /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand1
+converged:  True
+/mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand0
+run /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand0
+end /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand0
+converged:  True
+/mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand2
+run /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand2
+end /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand2
+converged:  True
+/mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand4
+run /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand4
+end /mnt/scratch2/users/40247882/pbe-oxides/dft-results/adsorptions/CO+O/fcc111s22/1CO+1O/vaspopt/cand4
+converged:  True

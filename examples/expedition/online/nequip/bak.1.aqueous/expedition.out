@@ -1,0 +1,72 @@
+
+Start at Thu Sep 22 21:07:09 2022
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+Train calculator on inital dataset, 16...
+TRAIN at t0, 2 models...
+dataset size (nframes): 16
+
+Start at Thu Sep 22 23:14:24 2022
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+--- Start Initial Model ---
+Train calculator on inital dataset, 16...
+TRAIN at t0, 2 models...
+dataset size (nframes): 16
+UPDATE POTENTIAL...
+
+Start at Thu Sep 22 23:16:00 2022
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+--- Start Initial Model ---
+Train calculator on inital dataset, 16...
+TRAIN at t0, 2 models...
+dataset size (nframes): 16
+UPDATE POTENTIAL...
+--- End Initial Model ---
+
+
+dump_period: 50 traj_period: 2
+tot: 200 block: 100 nblocks: 3
+start_block: 0
+ADD init dataset, 16...
+
+
+----- block        0 -----
+step:        0 temp:     270.0003 ke:       0.3490 pe:    -108.1142
+step:       50 temp:     278.2009 ke:       0.3596 pe:    -108.0862
+step:      100 temp:     385.2393 ke:       0.4980 pe:    -108.0066
+num_traj_frames: 3
+SELECTION: s0
+confids: 
+No candidates to calculate...
+
+
+----- block        1 -----
+step:      100 temp:     385.2393 ke:       0.4980 pe:    -108.0067
+step:      150 temp:     347.6698 ke:       0.4494 pe:    -108.0753
+step:      200 temp:     421.8912 ke:       0.5453 pe:    -108.5104
+num_traj_frames: 3
+SELECTION: s1
+confids: 
+No candidates to calculate...
+
+
+----- block        2 -----
+step:      200 temp:     421.8912 ke:       0.5453 pe:    -108.5104
+step:      250 temp:     200.1186 ke:       0.2587 pe:    -108.2685
+step:      300 temp:     301.6409 ke:       0.3899 pe:    -108.5881
+num_traj_frames: 3
+SELECTION: s2
+confids: 
+No candidates to calculate...

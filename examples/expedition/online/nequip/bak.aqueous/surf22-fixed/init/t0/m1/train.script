@@ -1,0 +1,13 @@
+#!/bin/bash -l
+#SBATCH --job-name=23a6c888-3ab2-11ed-a9d3-525400708c18-m1
+#SBATCH --partition=k2-hipri
+#SBATCH --time=00:30:00
+#SBATCH --ntasks=1
+#SBATCH --mem-per-cpu=8G
+
+
+conda activate catorch2
+
+
+nequip-train config.yaml 2>&1 > train.out
+nequip-deploy build --train-dir ./ ./deployed_model.pth 2>&1 > freeze.out

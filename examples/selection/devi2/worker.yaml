@@ -1,0 +1,40 @@
+potential:
+  name: eann
+  params:
+    backend: ase
+    #command: mpirun -n 4 lmp_cat -in in.lammps 2>&1 > lmp.out
+    type_list: ["C", "O", "Pt"] # NOTE: should be the same in the trainer config
+    model: 
+      - /mnt/scratch2/users/40247882/pbe-oxides/eann-main/r12/ensemble/m0/eann_latest_py_DOUBLE.pt
+      - /mnt/scratch2/users/40247882/pbe-oxides/eann-main/r12/ensemble/m1/eann_latest_py_DOUBLE.pt
+      - /mnt/scratch2/users/40247882/pbe-oxides/eann-main/r12/ensemble/m2/eann_latest_py_DOUBLE.pt
+      - /mnt/scratch2/users/40247882/pbe-oxides/eann-main/r12/ensemble/m3/eann_latest_py_DOUBLE.pt
+  uncertainty:
+    committee: 
+      models:
+        - /mnt/scratch2/users/40247882/pbe-oxides/eann-main/r12/ensemble/m0/eann_latest_py_DOUBLE.pt
+        - /mnt/scratch2/users/40247882/pbe-oxides/eann-main/r12/ensemble/m1/eann_latest_py_DOUBLE.pt
+        - /mnt/scratch2/users/40247882/pbe-oxides/eann-main/r12/ensemble/m2/eann_latest_py_DOUBLE.pt
+        - /mnt/scratch2/users/40247882/pbe-oxides/eann-main/r12/ensemble/m3/eann_latest_py_DOUBLE.pt
+#driver:
+#  bias:
+#  - method: afir
+#    gamma: 2.5
+#    groups:
+#      - "id 1 2" # CO
+#      - "id 3"   # O
+#  - method: afir # avoid CO2 desorb
+#    gamma: 0.25
+#    groups:
+#      - "id 1 2 3" # CO+O
+#      - "id 16 17 18 19" # Pt first layer
+#  run:
+#    fmax: 0.1
+#    steps: 50
+#    constraint: "4:11"
+#scheduler:
+#  backend: slurm
+#  partition: k2-hipri
+#  ntasks: 4
+#  time: "03:00:00"
+#  environs: "conda activate catorch2\nsource ~/envs/source_eann.sh"

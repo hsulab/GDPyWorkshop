@@ -1,0 +1,21 @@
+name: EANN # lowercase
+calculators: # actual code for simulation
+  calc1: # code for get single-point properties (energy and forces)
+    backend: ase
+    directory: "AseMin-worker"
+    type_list:
+      - C
+      - O
+      - Pt
+    file: /mnt/scratch2/users/40247882/pbe-oxides/eann-main/m10/ensemble/model-0/eann_1380_py_DOUBLE.pt
+  calc2: # code for get single-point properties (energy and forces)
+    backend: lammps
+    command: "mpirun -n 2 lmp_cat -in in.lammps 2>&1 > lmp.out"
+    directory: "LmpMin-worker"
+    type_list:
+      - C
+      - O
+      - Pt
+    # lammps params
+    #pair_style: "eann /mnt/scratch2/users/40247882/pbe-oxides/eann-main/m09/ensemble/model-1/eann_lmp_DOUBLE.pt"
+    pair_style: eann /mnt/scratch2/users/40247882/pbe-oxides/eann-main/m09/ensemble/model-5/eann_latest_lmp_DOUBLE.pt /mnt/scratch2/users/40247882/pbe-oxides/eann-main/m10/ensemble/model-0/eann_1380_lmp_DOUBLE.pt

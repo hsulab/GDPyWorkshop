@@ -1,0 +1,15 @@
+#!/bin/bash -l
+#SBATCH --job-name=d06c5d58-480d-11ed-be1c-525400692cc9-create
+#SBATCH --partition=k2-hipri
+#SBATCH --time=00:10:00
+#SBATCH --ntasks=1
+#SBATCH --mem-per-cpu=4G
+
+
+conda activate deepmd
+
+
+for i in `seq 5`
+do
+  gdp -p ./worker.yaml task ./task.yaml
+done

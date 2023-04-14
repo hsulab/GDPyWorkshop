@@ -1,0 +1,7 @@
+# - scheduler
+backend: slurm
+partition: k2-hipri
+ntasks: 2
+time: "00:30:00"
+environs: "source ~/envs/source_lasp.sh\nconda activate catorch2"
+user_commands: "for i in `seq 10`\ndo\n  gdp -p ./worker.yaml task ./task.yaml\ndone"

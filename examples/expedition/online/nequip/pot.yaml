@@ -1,0 +1,38 @@
+potential:
+  name: nequip
+  params:
+    backend: lammps
+    command: lmp_tcat -in in.lammps 2>&1 > lmp.out
+  #  pair_style: nequip
+  #  pair_coeff: "* * /mnt/scratch2/users/40247882/pbe-oxides/nq-train/neq-ensemble/model-2/deployed_model.pth"
+  trainer: 
+    config: ./config.yaml
+    #dataset:
+    size: 2
+    scheduler:
+      # - local
+      #backend: local
+      # - cpu
+      backend: slurm
+      partition: k2-hipri
+      time: "00:30:00"
+      ntasks: 1
+      mem-per-cpu: 8G
+      environs: "conda activate catorch2\n"
+      # - gpu
+      #backend: slurm
+      #partition: k2-gpu
+      #time: "00:03:00"
+      #ntasks: 1
+      #cpus-per-task: 24
+      #mem-per-cpu: 4G
+      #gres: gpu:1
+      #environs: "conda activate catorch2\nmodule load nvidia-cuda\n"
+    train: "nequip-train config.yaml 2>&1 > train.out" # NOTE: set by manager
+    freeze: "nequip-deploy build --train-dir ./auto ./deployed_model.pth 2>&1 > freeze.out"
+scheduler:
+  backend: slurm
+  partition: k2-hipri
+  ntasks: 2
+  time: "00:03:00"
+  environs: "source ~/envs/source_eann.sh\nconda activate catorch2"

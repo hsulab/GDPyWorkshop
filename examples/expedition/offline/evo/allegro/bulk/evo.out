@@ -1,0 +1,29 @@
+
+Start at Sun Oct  9 21:14:24 2022
+
+
+
+===== Explore System xs =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+@@@CommandWorker+run
+create: 10224258
+@@@CommandWorker+inspect
+create is running...
+Creation is not finished...
+
+
+===== Explore System xm =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+@@@CommandWorker+run
+create: 10224259
+@@@CommandWorker+inspect
+create is running...
+Creation is not finished...

@@ -1,0 +1,40 @@
+{
+  "_default": {
+    "1": {
+      "gdir": "89ec13ed-3cf0-11ed-b8bb-f40270d34102-cand2",
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "2": {
+      "gdir": "8c9b6fda-3cf0-11ed-8bad-f40270d34102-cand3",
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "3": {
+      "gdir": "8e7f5b06-3cf0-11ed-9b8a-f40270d34102-cand4",
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "4": {
+      "gdir": "91907f55-3cf0-11ed-817d-f40270d34102-cand11",
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "5": {
+      "gdir": "9372f1f7-3cf0-11ed-94c2-f40270d34102-cand14",
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "6": {
+      "gdir": "9535e667-3cf0-11ed-b4d7-f40270d34102-cand17",
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    }
+  }
+}

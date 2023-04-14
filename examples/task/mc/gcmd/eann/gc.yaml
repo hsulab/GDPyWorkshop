@@ -1,0 +1,38 @@
+task: mc
+system:
+  reservoir: 
+    temperature: 673 # K
+    pressure: 0.001  # bar
+    species:
+      O: -8.29 # eV
+  substrate: ../substrate-sorted.xyz
+  region: 
+    caxis: [8.0, 38.5]
+    covalent_ratio: [1.0, 2.0] # too small may make structure collapse
+    max_movedisp: 2.0 # minimum distance between atoms, not used for now
+probabilities: [0.0, 1.0] # move and exchange
+random_seed: 1112
+preprocess: # before GC, for hybrid GC-MC+MD
+  backend: external
+  task: md
+  init:
+    min_style: nvt
+    temp: 673 # should be the same as reservoir
+    timestep: 2.0 # fs
+    dump_period: 10
+  run:
+    steps: 50
+    fmax: 0.10
+    constraint: "zpos 8.0"
+  #postprocess: # after GC, for biased GC-MC
+  #  backend: external
+  #  task: md
+  #  init:
+  #    min_style: nvt
+  #    timestep: 2.0 # fs
+  #    dump_period: 100
+  #  run:
+  #    steps: 500
+  #    constraint: "zpos 8.0"
+run:
+  nmcattempts: 5

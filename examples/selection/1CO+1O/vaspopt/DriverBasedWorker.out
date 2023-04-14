@@ -1,0 +1,61 @@
+@@@DriverBasedWorker+run
+vaspopt JOBID: 11181787
+@@@DriverBasedWorker+inspect
+group-0 is running...
+@@@DriverBasedWorker+run
+group-0 at vaspopt was submitted.
+@@@DriverBasedWorker+inspect
+group-0 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+new_frames: 6 energy of the first: -115.70116808
+*** read-results time: 196.7059 ***
+@@@DriverBasedWorker+run
+group-0 at vaspopt was submitted.
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+new_trajectories: 6 nframes of the first: 10
+*** read-results time:   2.4776 ***
+@@@DriverBasedWorker+run
+group-0 at vaspopt was submitted.
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+new_trajectories: 6 nframes of the first: 10
+*** read-results time:   2.9741 ***
+@@@DriverBasedWorker+run
+group-0 at vaspopt was submitted.
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+new_trajectories: 6 nframes of the first: 10
+*** read-results time:   2.3526 ***
+@@@DriverBasedWorker+run
+group-0 at vaspopt was submitted.
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+new_trajectories: 6 nframes of the first: 10
+*** read-results time:   2.5601 ***
+@@@DriverBasedWorker+run
+group-0 at vaspopt was submitted.
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+new_trajectories: 6 nframes of the first: 10
+*** read-results time:   2.4585 ***
+@@@DriverBasedWorker+run
+group-0 at vaspopt was submitted.
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+new_trajectories: 6 nframes of the first: 10
+*** read-results time:   2.7191 ***
+@@@DriverBasedWorker+run
+group-0 at vaspopt was submitted.
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+new_trajectories: 6 nframes of the first: 10
+*** read-results time:   2.4877 ***

@@ -1,0 +1,33 @@
+potential:
+  name: nequip
+  #params:
+  #  backend: ase
+  #  directory: "AseMin-worker"
+  #  #type_list:
+  #  #  - C
+  #  #  - O
+  #  #  - Pt
+  #  file: /mnt/scratch2/users/40247882/pbe-oxides/nq-train/neq-ensemble/model-2/deployed_model.pth
+  params:
+    backend: lammps
+    command: lmp_tcat -in in.lammps 2>&1 > lmp.out
+    pair_style: nequip
+    pair_coeff: "* * /mnt/scratch2/users/40247882/pbe-oxides/nq-train/neq-ensemble/model-2/deployed_model.pth"
+driver:  
+  backend: external # should be compatible with calculator
+  task: min # default ase uses BFGS
+  run:
+    fmax: 0.05
+    steps: 10
+    constraint: "lowest 9" # lowest, zpos
+  # === nvt
+  #task: md
+  #init:
+  #  md_style: nvt
+  #  temp: 600
+  #  Tdamp: 100
+  #  #pres: 1.
+  #  #Pdamp: 200
+  #run:
+  #  steps: 4
+  #  constraint: "lowest 4"

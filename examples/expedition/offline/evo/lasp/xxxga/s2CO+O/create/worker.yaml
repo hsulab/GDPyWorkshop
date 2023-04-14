@@ -1,0 +1,23 @@
+driver:
+  backend: lasp
+  init:
+    MD.print_freq: 1
+    SSW.SSWsteps: 1
+    explore_type: ssw
+  run:
+    SSW.MaxOptstep: 50
+    SSW.ftol: 0.05
+    constraint: lowest 18
+  task: min
+potential:
+  name: lasp
+  params:
+    backend: lasp
+    command: mpirun -n 2 lasp
+    directory: LaspMin-worker
+    pot:
+      C: /users/40247882/repository/GDPy/examples/resources/PtCHO.pot
+      H: /users/40247882/repository/GDPy/examples/resources/PtCHO.pot
+      O: /users/40247882/repository/GDPy/examples/resources/PtCHO.pot
+      Pt: /users/40247882/repository/GDPy/examples/resources/PtCHO.pot
+    pot_name: lasp

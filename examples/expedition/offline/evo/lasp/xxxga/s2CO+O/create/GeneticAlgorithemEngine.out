@@ -1,0 +1,644 @@
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+----- create a new database -----
+
+
+===== Initial Population Creation =====
+start to create initial population
+finished creating initial population...
+save population 1 to database
+save population size 3 into database...
+----- create a new tmp_folder -----
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 1
+[2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+Use confids as ['cand2']
+bc6e905e-3cf0-11ed-a815-f40270d0068a-cand2 cand2 is running...
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :surface
+number_of_variable_cell_vectors: 0
+insertion region
+origin   0.0000    0.0000   10.7911
+xxxxxx   8.4180    0.0000    0.0000
+xxxxxx   4.2090    7.2902    0.0000
+xxxxxx   0.0000    0.0000    6.5000
+----- Bond Distance Minimum -----
+covalent ratio: 0.8
+         O       H      Pt  
+O     1.0560  0.7760  1.6160
+H     0.7760  0.4960  1.3360
+Pt    1.6160  1.3360  2.1760
+too_far: True, dist_to_slab: True
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator InteratomicDistanceComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 1.0
+Use mutation RattleMutation.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 2
+[2, 2]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 0 and try to reproduce...
+number before reproduction: 1
+
+
+ ----- try to reproduce, count 0, failed 0 -----

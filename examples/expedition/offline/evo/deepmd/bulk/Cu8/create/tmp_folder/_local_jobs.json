@@ -1,0 +1,121 @@
+{
+  "_default": {
+    "1": {
+      "uid": "d4ab7e26-480d-11ed-88cc-b07b25e985be",
+      "md5": "c387eef05c2971d0e56d49d58e10c410",
+      "gdir": "d4ab7e26-480d-11ed-88cc-b07b25e985becand2",
+      "group_number": 0,
+      "wdir_names": [
+        "cand2"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "2": {
+      "uid": "d60ecdb8-480d-11ed-88cc-b07b25e985be",
+      "md5": "b8ba1afc4a1d5600a56c9c26e9e55ca7",
+      "gdir": "d60ecdb8-480d-11ed-88cc-b07b25e985becand3",
+      "group_number": 0,
+      "wdir_names": [
+        "cand3"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "3": {
+      "uid": "d6dc969e-480d-11ed-88cc-b07b25e985be",
+      "md5": "dddb43577a784be55c4c2f6067086b86",
+      "gdir": "d6dc969e-480d-11ed-88cc-b07b25e985becand4",
+      "group_number": 0,
+      "wdir_names": [
+        "cand4"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "4": {
+      "uid": "db76898a-480d-11ed-8862-b07b25e985be",
+      "md5": "72e31910c560821e11bb51655b9f2775",
+      "gdir": "db76898a-480d-11ed-8862-b07b25e985becand11",
+      "group_number": 0,
+      "wdir_names": [
+        "cand11"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "5": {
+      "uid": "dcb4255a-480d-11ed-8862-b07b25e985be",
+      "md5": "554aec5671d8546b451609194efa68fe",
+      "gdir": "dcb4255a-480d-11ed-8862-b07b25e985becand13",
+      "group_number": 0,
+      "wdir_names": [
+        "cand13"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "6": {
+      "uid": "dd9fddd8-480d-11ed-8862-b07b25e985be",
+      "md5": "6d7fb9b65f7354602c780467ab576eef",
+      "gdir": "dd9fddd8-480d-11ed-8862-b07b25e985becand16",
+      "group_number": 0,
+      "wdir_names": [
+        "cand16"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "7": {
+      "uid": "e2bd11d2-480d-11ed-b9d5-b07b25e985be",
+      "md5": "a6b3bc725e651cfc28fd3c7bfc4ca5e8",
+      "gdir": "e2bd11d2-480d-11ed-b9d5-b07b25e985becand22",
+      "group_number": 0,
+      "wdir_names": [
+        "cand22"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "8": {
+      "uid": "e431f4ec-480d-11ed-b9d5-b07b25e985be",
+      "md5": "f788189e59a599b3efd0fc62b62836ae",
+      "gdir": "e431f4ec-480d-11ed-b9d5-b07b25e985becand25",
+      "group_number": 0,
+      "wdir_names": [
+        "cand25"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    },
+    "9": {
+      "uid": "e58f94de-480d-11ed-b9d5-b07b25e985be",
+      "md5": "d4cc4b9aaac74339bc3348b2dd82e7c1",
+      "gdir": "e58f94de-480d-11ed-b9d5-b07b25e985becand28",
+      "group_number": 0,
+      "wdir_names": [
+        "cand28"
+      ],
+      "local": true,
+      "queued": true,
+      "finished": true,
+      "retrieved": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+driver:
+  backend: ase
+  init:
+    loginterval: 1
+    min_modify: integrator verlet tmax 4
+    min_style: ExpCellFilter
+  run:
+    constraint: null
+    fmax: 0.05
+    steps: 200
+  task: min
+potential:
+  name: nequip
+  params:
+    backend: ase
+    file: /users/40247882/repository/GDPy/examples/expedition/offline/dynamics/allegro/deployed_model.pth
+    type_list:
+    - C
+    - Pd

@@ -1,0 +1,12 @@
+selection:
+  - method: property
+    properties:
+      #atomic_energy: # total energy
+      #  bound: [-10., 5.]
+      #  #metric:
+      #max_devi_f: 
+      #  range: [0.05, 50.50]
+      #  #reverse: true
+      max_devi_f:
+        range: [0.05, 0.25]
+    number: [10, 0.2]

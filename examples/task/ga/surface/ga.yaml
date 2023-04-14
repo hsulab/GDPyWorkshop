@@ -1,0 +1,36 @@
+task: ga
+database: mydb.db
+system: # generator
+  type: surface
+  composition: {"O": 3, "Pt": 18}
+  covalent_ratio: 0.8
+  substrate: ./surfaces.xyz
+  surfdis: [1.5, 10.5]
+  #constraint: "lowest 9"
+worker: ./worker.yaml
+population:
+  init_size: 3
+  pmut: 1.0 # prob of mutation
+property:
+  target: energy # (total) energy, barrier
+  evaluation: # TODO: some utilities
+convergence:
+  generation: 1
+operators: # here, define a bunch of operators
+  comparator:
+    name: InteratomicDistanceComparator
+    kwargs: 
+      dE: 0.015
+  crossover:
+    #name: CutSpliceCrossover # cluster
+    name: CutAndSplicePairing
+  mutation:
+    - name: RattleMutation
+      test_dist_to_slab: false
+      prob: 1.0
+    #- name: RandomMutation
+    #  prob: 1.0
+    #- name: PermutationMutation
+    #  prob: 1.0
+    #- name: MirrorMutation 
+    #  prob: 1.0

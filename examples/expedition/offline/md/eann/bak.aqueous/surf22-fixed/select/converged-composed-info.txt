@@ -1,0 +1,3 @@
+# init dscribe                 init devi                    init invariant               
+                       0                        0                        0                        0
+                       1                        1                        1                        1

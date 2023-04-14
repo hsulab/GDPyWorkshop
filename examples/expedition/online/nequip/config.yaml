@@ -1,0 +1,73 @@
+# !! PLEASE NOTE: `minimal.yaml` is meant as a _minimal_ example of a tiny, fast
+#                 training that can be used to verify your nequip install,
+#                 the syntax of your configuration edits, etc.
+#                 These are NOT recommended hyperparameters for real applications!
+#                 Please see `example.yaml` for a reasonable starting point.
+
+# general
+root: results/PtCOx
+run_name: minimal
+seed: 123
+dataset_seed: 456
+# append: true
+# default_dtype: float32
+
+# network
+r_max: 6.0
+# num_layers: 4
+l_max: 2
+parity: true
+num_features: 32
+
+nonlinearity_type: gate                                                           # may be 'gate' or 'norm', 'gate' is recommended
+
+# radial network basis
+num_basis: 8
+# BesselBasis_trainable: true
+# PolynomialCutoff_p: 6
+
+# data set
+# the keys used need to be stated at least once in key_mapping, npz_fixed_field_keys or npz_keys
+# key_mapping is used to map the key in the npz file to the NequIP default values (see data/_key.py)
+# all arrays are expected to have the shape of (nframe, natom, ?) except the fixed fields
+# note that if your data set uses pbc, you need to also pass an array that maps to the nequip "pbc" key
+dataset: ase                                                                       # type of data set, can be npz or a
+dataset_file_name: /mnt/scratch2/users/40247882/pbe-oxides/eann-main/m08/ensemble/PtCOx.extxyz
+#key_mapping:
+#  species: atomic_numbers                                                                # atomic species, integers
+#  energy: total_energy                                                                  # total potential eneriges to train to
+#  forces: forces                                                                        # atomic forces to train to
+#  pos: pos                                                                           # raw atomic positions
+#  Lattice: cell
+#  pbc: pbc
+ase_args:
+  format: extxyz
+#include_keys: 
+#  - user_label
+#key_mapping:
+#  user_label: label0
+
+chemical_symbols:
+  - C
+  - O
+  - Pt
+
+# logging
+wandb: false
+# verbose: debug
+
+# training
+n_train: 5984
+n_val: 666
+batch_size: 4
+max_epochs: 500
+
+# loss function
+loss_coeffs:
+  total_energy:
+  - 3.0
+  - L1Loss
+  forces: 1.0
+
+# optimizer
+optimizer_name: Adam

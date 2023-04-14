@@ -1,0 +1,22 @@
+potential:
+  name: deepmd
+  params:
+    backend: ase
+    type_list: ["Cu"] # NOTE: should be the same in the trainer config
+    model: /mnt/scratch2/users/40247882/ZnCuOx/copper/deepmd/dptrain/m0/graph.pb
+# - driver
+driver:  
+  backend: external
+  # === nvt
+  task: min
+  init:
+    min_style: ExpCellFilter
+  run:
+    steps: 200
+    fmax: 0.05
+#scheduler:
+#  backend: slurm
+#  partition: k2-hipri
+#  ntasks: 2
+#  time: "00:03:00"
+#  environs: "conda activate deepmd\n"

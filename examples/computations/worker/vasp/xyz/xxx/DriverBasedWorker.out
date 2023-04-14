@@ -1,0 +1,16 @@
+@@@DriverBasedWorker+run
+xxx JOBID: 10224249
+xxx JOBID: 10224250
+@@@DriverBasedWorker+inspect
+group-0 is running...
+group-1 is running...
+@@@DriverBasedWorker+retrieve
+@@@DriverBasedWorker+run
+group-0 was submitted.
+group-1 was submitted.
+@@@DriverBasedWorker+inspect
+group-0 is finished...
+group-1 is finished...
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0795 ***
+new_frames: 5 energy of the first: -21.34845408

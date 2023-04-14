@@ -1,0 +1,67 @@
+dataset: /mnt/scratch2/users/40247882/pbe-oxides/PrecSet
+method: GA
+type_list: ["C", "O", "Pt"]
+systems:
+  s1CO+O:
+    prefix: Pt111s33pop
+    generator:
+      type: surface
+      composition: {"H2O": 9}
+      covalent_ratio: 0.8
+      substrate: ./surfaces.xyz
+      surfdis: [-1.5, 6.5]
+    constraint: "lowest 18"
+    kpts: [4, 4, 1]
+explorations:
+  population-expedition:
+    systems: ["s1CO+O"]
+    create:
+      worker: ./ga.yaml
+    collect:
+      traj_period: 20 # every 10*dyn_dump_period steps plus last step
+    select: # list of selection procedures
+      - method: convergence # TODO: if there were no forces?
+        fmax: 0.05 # eV/AA
+      - method: deviation # selection based on model deviation
+        properties: # store in atoms.info
+          atomic_energy: max_devi_e
+          force: max_devi_f
+        criteria:
+          atomic_energy: [0.05, 0.25]
+          force: [0.05, 0.25]
+      - method: descriptor
+        descriptor: # TODO: keep last converged frame?
+          name: soap
+          species: ["C", "O", "Pt"]
+          rcut : 6.0
+          nmax : 12
+          lmax : 8
+          sigma : 0.3
+          average : inner
+          periodic : true
+        criteria:
+          method: cur
+          zeta: -1
+          strategy: descent
+          number: [160, 0.2] # TODO: auto? percent?
+    label:
+      calc_name: calc1 # reference calculator
+      mach_name: mach1 # machine settings for the label task
+calculation: # params for label
+  name: Vasp
+  # vasp_params
+  calculators:
+    calc1: # NOTE: this part is used to create calculator
+      # backend: vasp
+      pp_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential
+      vdw_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential
+      incar: /mnt/scratch2/users/40247882/pbe-oxides/input-files/incars/INCAR_OXIDE_MAG
+      kpts: system # [6, 6, 1]
+      command: mpirun -n 64 /mnt/scratch2/chemistry-apps/dkb01416/vasp/installed/intel-2016/5.4.4-ccc/vasp_std 2>&1 > vasp.out
+machines: # NOTE: can be replaced by a script file
+  mach1:
+    backend: slurm
+    partition: k2-medpri
+    time: "24:00:00"
+    environs: "source ~/envs/source_intel-2016.sh\nconda activate catorch2"
+

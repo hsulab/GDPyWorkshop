@@ -1,0 +1,39 @@
+potential:
+  name: eann
+  params:
+    backend: lammps
+    command: "mpirun -n 2 lmp_cat -in in.lammps 2>&1 > lmp.out"
+    directory: "LmpMin-worker"
+    type_list: [C, O, Pt]
+    pair_style: eann /mnt/scratch2/users/40247882/pbe-oxides/eann-main/m09/ensemble/model-5/eann_latest_lmp_DOUBLE.pt /mnt/scratch2/users/40247882/pbe-oxides/eann-main/m10/ensemble/model-0/eann_1380_lmp_DOUBLE.pt
+  trainer: 
+    config: ./config.yaml
+    #dataset:
+    size: 2
+    scheduler:
+      # - local
+      #backend: local
+      # - cpu
+      backend: slurm
+      partition: k2-hipri
+      time: "00:30:00"
+      ntasks: 1
+      mem-per-cpu: 4G
+      environs: "conda activate catorch2\n"
+      # - gpu
+      #backend: slurm
+      #partition: k2-gpu
+      #time: "00:03:00"
+      #ntasks: 1
+      #cpus-per-task: 24
+      #mem-per-cpu: 4G
+      #gres: gpu:1
+      #environs: "conda activate catorch2\nmodule load nvidia-cuda\n"
+    train: "python -u /users/40247882/repository/EANN/eann --config ./config.yaml train 2>&1 > eann.out\n"
+    freeze: "python -u /users/40247882/repository/EANN/eann --config ./config.yaml freeze ./EANN.pth -o eann_latest_"
+scheduler:
+  backend: slurm
+  partition: k2-hipri
+  ntasks: 2
+  time: "00:03:00"
+  environs: "source ~/envs/source_eann.sh\nconda activate catorch2"

@@ -1,0 +1,22 @@
+potential:
+  name: nequip
+  params:
+    backend: ase
+    type_list: ["C", "Pd"] # NOTE: should be the same in the trainer config
+    file: /users/40247882/repository/GDPy/examples/expedition/offline/dynamics/allegro/deployed_model.pth
+# - driver
+driver:  
+  backend: external
+  # === nvt
+  task: min
+  init:
+    min_style: ExpCellFilter
+  run:
+    steps: 200
+    fmax: 0.05
+#scheduler:
+#  backend: slurm
+#  partition: k2-hipri
+#  ntasks: 2
+#  time: "00:03:00"
+#  environs: "conda activate deepmd\n"

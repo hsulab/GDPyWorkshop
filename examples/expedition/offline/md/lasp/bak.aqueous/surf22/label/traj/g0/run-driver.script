@@ -1,0 +1,12 @@
+#!/bin/bash -l
+#SBATCH --job-name=surf22_Worker-g0
+#SBATCH --partition=k2-hipri
+#SBATCH --time=0:30:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+
+
+source ~/envs/source_intel-2016.sh
+conda activate catorch2
+
+gdp driver driver.yaml -s frames.xyz

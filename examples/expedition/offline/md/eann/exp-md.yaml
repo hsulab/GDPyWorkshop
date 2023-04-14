@@ -1,0 +1,61 @@
+dataset: ./set/
+type_list: ["C", "H", "O", "Pt"] # this creates type_map
+systems:
+  surf22-fixed: 
+    prefix: Pt111s22ads
+    structure: ./substrates.xyz
+    composition: {"C": 1, "O": 1, "Pt": 16}
+    kpts: [6, 6, 1]
+    constraint: "lowest 4"
+explorations:
+  aqueous:
+    systems: ["surf22-fixed"]
+    create:
+      driver:
+        backend: external
+        task: md # md
+        init:
+          md_style: nvt
+          temp: [300, 600, 1500] # broadcast params
+          Tdamp: 100 # fs
+          timestep: 2 # fs
+          dump_period: 4
+        run:
+          steps: 12
+        #task: min
+        #init:
+        #  min_style: 1 # ssw-opt
+        #  dump_period: 8
+        #run:
+        #  steps: 12
+    collect:
+      traj_period: 2
+    select: # list of selection procedures
+      - method: invariant
+        params: null
+      - method: convergence # TODO: if there were no forces?
+        fmax: 0.80 # eV/AA
+      - method: deviation # selection based on model deviation
+        random_seed: 1112
+        properties: # store in atoms.info
+          atomic_energy: max_devi_e
+          force: max_devi_f
+        criteria:
+          atomic_energy: [0.01, 0.25]
+          force: [0.05, 0.25]
+      - method: descriptor
+        random_seed: 1112
+        descriptor: 
+          name: soap
+          species: ["C", "H", "O", "Pt"]
+          rcut : 6.0
+          nmax : 12
+          lmax : 8
+          sigma : 0.3
+          average : inner
+          periodic : true
+        criteria:
+          method: cur
+          zeta: -1
+          strategy: descent
+        number: [2, 0.2] # TODO: auto? percent?

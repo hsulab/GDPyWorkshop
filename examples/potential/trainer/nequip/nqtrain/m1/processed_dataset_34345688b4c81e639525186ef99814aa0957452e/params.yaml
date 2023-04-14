@@ -1,0 +1,13 @@
+ase_args:
+  format: extxyz
+dtype: torch.float32
+extra_fixed_fields:
+  r_max: 6.0
+file_name: /users/40247882/repository/GDPy/examples/potential/trainer/nequip/nqtrain/m1/dataset.xyz
+force_fixed_keys: !!set {}
+include_frames: null
+include_keys: null
+key_mapping: null
+nequip_version: 0.5.5
+root: /users/40247882/repository/GDPy/examples/potential/trainer/nequip/nqtrain/m1
+url: null

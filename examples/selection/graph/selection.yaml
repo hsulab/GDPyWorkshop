@@ -1,0 +1,9 @@
+selection:
+  - method: graph
+    group_commands: 
+      - "symbol C O"
+    pbc_grid: [2, 2, 0]
+    graph_radius: 2
+    neigh_params:
+      covalent_ratio: 1.1
+      skin: 0.25

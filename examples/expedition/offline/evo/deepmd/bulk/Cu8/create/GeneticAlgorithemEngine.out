@@ -1,0 +1,424 @@
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+----- create a new database -----
+
+
+===== Initial Population Creation =====
+start to create initial population
+finished creating initial population...
+save population 3 to database
+save population size 3 into database...
+----- create a new tmp_folder -----
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 0
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 3
+[2, 3, 4]
+end of current generation: False
+not converged yet...
+
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:15 2022 cand2 cand2 is running...
+*** run-driver time:   2.2338 ***
+
+
+ ----- start to run structure 3 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:18 2022 cand3 cand3 is running...
+*** run-driver time:   1.2425 ***
+
+
+ ----- start to run structure 4 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:19 2022 cand4 cand4 is running...
+*** run-driver time:   1.5522 ***
+
+
+===== update population =====
+
+
+===== Optimisation and Reproduction =====
+Enough candidates or not finished relaxing current generation...
+@@@DriverBasedWorker+inspect
+and2 is finished...
+and3 is finished...
+and4 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.1147 ***
+new_frames: 3 energy of the first: -29.716008539268685
+  add relaxed cand 2
+  with raw_score 29.7160
+  add relaxed cand 3
+  with raw_score 29.7171
+  add relaxed cand 4
+  with raw_score 29.7161
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 1
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+not converged yet...
+
+
+===== update population =====
+
+----- End of Generation -----
+
+StrainMutation Scaling Volume: 97.17413312284036
+CutAndSplicePairing Scaling Volume: 97.17413312284036
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 1 and try to reproduce...
+number before reproduction: 0
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+  generate offspring with pairing: 4 3 
+   after 1 attempts...
+
+
+ ----- start to run structure 11 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:27 2022 cand11 cand11 is running...
+*** run-driver time:   1.7273 ***
+
+
+ ----- try to reproduce, count 1, failed 0 -----
+  generate offspring with pairing: 3 4 
+  mutation: soft after 1 attempts...
+
+
+ ----- start to run structure 13 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:29 2022 cand13 cand13 is running...
+*** run-driver time:   1.4246 ***
+
+
+ ----- try to reproduce, count 2, failed 0 -----
+  generate offspring with pairing: 3 4 
+  mutation: strain after 1 attempts...
+
+
+ ----- start to run structure 16 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:30 2022 cand16 cand16 is running...
+*** run-driver time:   1.7366 ***
+3 candidates were reproduced in this run...
+enough jobs are running for the current generation...
+@@@DriverBasedWorker+inspect
+and11 is finished...
+and13 is finished...
+and16 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.1032 ***
+new_frames: 3 energy of the first: -29.716961366399065
+  add relaxed cand 11
+  with raw_score 29.7170
+  add relaxed cand 13
+  with raw_score 29.7264
+  add relaxed cand 16
+  with raw_score -100000000.0000
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 2
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+not converged yet...
+
+
+===== update population =====
+
+----- End of Generation -----
+
+StrainMutation Scaling Volume: 97.47681230924697
+CutAndSplicePairing Scaling Volume: 97.47681230924697
+
+
+===== Optimisation and Reproduction =====
+not enough unrelaxed candidates for generation 2 and try to reproduce...
+number before reproduction: 0
+
+
+ ----- try to reproduce, count 0, failed 0 -----
+  generate offspring with pairing: 13 3 
+  mutation: strain after 1 attempts...
+
+
+ ----- start to run structure 22 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:39 2022 cand22 cand22 is running...
+*** run-driver time:   2.3147 ***
+
+
+ ----- try to reproduce, count 1, failed 0 -----
+  generate offspring with pairing: 4 13 
+  mutation: strain after 1 attempts...
+
+
+ ----- start to run structure 25 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:41 2022 cand25 cand25 is running...
+*** run-driver time:   2.1685 ***
+
+
+ ----- try to reproduce, count 2, failed 0 -----
+  generate offspring with pairing: 13 4 
+  mutation: strain after 1 attempts...
+
+
+ ----- start to run structure 28 -----
+@@@DriverBasedWorker+run
+Sun Oct  9 21:06:44 2022 cand28 cand28 is running...
+*** run-driver time:   3.2949 ***
+3 candidates were reproduced in this run...
+enough jobs are running for the current generation...
+@@@DriverBasedWorker+inspect
+and22 is finished...
+and25 is finished...
+and28 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.1440 ***
+new_frames: 3 energy of the first: -29.716713008173034
+  add relaxed cand 22
+  with raw_score 29.7167
+  add relaxed cand 25
+  with raw_score 29.1082
+  add relaxed cand 28
+  with raw_score 28.8150
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 3
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 3
+[-29.717119180280413, -29.716120061213495, -29.716008539268685]
+[-29.726360975410483, -29.716961366399065, -29.724975211207187]
+[-29.716713008173034, -29.108192993574768, -28.81504505554853]
+
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Cu  
+Cu    1.3200
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+
+
+===== register operators =====
+--- comparator ---
+Use comparator OFPComparator.
+--- crossover ---
+Use crossover CutAndSplicePairing.
+--- mutations ---
+mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+current generation number: 3
+number of relaxed in current generation: 0
+[]
+number of unrelaxed in current generation: 0
+[]
+end of current generation: True
+reach maximum generation...
+restart the database...
+Current generation number: 3
+[-29.717119180280413, -29.716120061213495, -29.716008539268685]
+[-29.726360975410483, -29.716961366399065, -29.724975211207187]
+[-29.716713008173034, -29.108192993574768, -28.81504505554853]

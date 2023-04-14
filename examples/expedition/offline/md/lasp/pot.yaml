@@ -1,0 +1,18 @@
+potential:
+  name: lasp
+  #version:
+  params:
+    backend: lasp
+    directory: "LaspMin-worker"
+    command: mpirun -n 2 lasp
+    pot:
+      C: ../../../resources/PtCHO.pot
+      H: ../../../resources/PtCHO.pot
+      O: ../../../resources/PtCHO.pot
+      Pt: ../../../resources/PtCHO.pot
+  #scheduler:
+  #  backend: slurm
+  #  partition: k2-hipri
+  #  ntasks: 2
+  #  time: "00:03:00"
+  #  environs: "source ~/envs/source_lasp.sh\nconda activate catorch2"

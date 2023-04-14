@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#SBATCH --job-name=7a0d3abe-3cf0-11ed-aa5d-525400708c18-create
+#SBATCH --partition=k2-hipri
+#SBATCH --time=00:30:00
+#SBATCH --ntasks=2
+
+
+source ~/envs/source_lasp.sh
+conda activate catorch2
+
+for i in `seq 10`
+do
+  gdp -p ./worker.yaml task ./task.yaml
+done

@@ -1,0 +1,25 @@
+batchsize: 32
+driver:
+  backend: vasp
+  init:
+    min_style: cg
+  run:
+    maxstep: 0.2
+    fmax: 0.05
+    steps: 400
+    constraint: "lowest 8"
+potential:
+  name: vasp
+  params:
+    backend: vasp
+    command: mpirun -n 64 /mnt/scratch2/chemistry-apps/dkb01416/vasp/installed/intel-2016/5.4.4-ccc/vasp_std 2>&1 > vasp.out
+    incar: /mnt/scratch2/users/40247882/pbe-oxides/input-files/incars/INCAR_PtCOx_NoMAG
+    kpts: [6,6,1]
+    pp_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential
+    vdw_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential
+scheduler:
+  backend: slurm
+  partition: k2-medpri
+  ntasks: 64
+  time: "8:00:00"
+  environs: "source ~/envs/source_intel-2016.sh\nconda activate catorch2"

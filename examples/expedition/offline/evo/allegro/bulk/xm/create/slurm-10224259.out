@@ -1,0 +1,777 @@
+Warning: A 'Shared Scratch' link exists but the target is not available on this node
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/utils/_global_options.py:58: UserWarning: Setting the GLOBAL value for jit fusion strategy to `[('DYNAMIC', 3)]` which is different than the previous value of `[('STATIC', 2), ('DYNAMIC', 10)]`
+  warnings.warn(
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/ase/nequip_calculator.py:73: UserWarning: Trying to use chemical symbols as NequIP type names; this may not be correct for your model! To avoid this warning, please provide `species_to_type_name` explicitly.
+  warnings.warn(
+
+
+===== Genetic Algorithm =====
+INFO:GDPy.ga.engine:
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+INFO:GDPy.ga.engine:
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+INFO:GDPy.ga.engine:
+
+===== register worker =====
+
+
+===== register generator =====
+INFO:GDPy.ga.engine:
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+INFO:GDPy.ga.engine:----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+----- create a new database -----
+INFO:GDPy.ga.engine:----- create a new database -----
+
+
+===== Initial Population Creation =====
+INFO:GDPy.ga.engine:
+
+===== Initial Population Creation =====
+start to create initial population
+INFO:GDPy.ga.engine:start to create initial population
+finished creating initial population...
+INFO:GDPy.ga.engine:finished creating initial population...
+save population 3 to database
+INFO:GDPy.ga.engine:save population 3 to database
+save population size 3 into database...
+INFO:GDPy.ga.engine:save population size 3 into database...
+----- create a new tmp_folder -----
+INFO:GDPy.ga.engine:----- create a new tmp_folder -----
+
+
+===== register operators =====
+INFO:GDPy.ga.engine:
+
+===== register operators =====
+--- comparator ---
+INFO:GDPy.ga.engine:--- comparator ---
+Use comparator OFPComparator.
+INFO:GDPy.ga.engine:Use comparator OFPComparator.
+--- crossover ---
+INFO:GDPy.ga.engine:--- crossover ---
+Use crossover CutAndSplicePairing.
+INFO:GDPy.ga.engine:Use crossover CutAndSplicePairing.
+--- mutations ---
+INFO:GDPy.ga.engine:--- mutations ---
+mutation probability: 0.8
+INFO:GDPy.ga.engine:mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+INFO:GDPy.ga.engine:
+
+===== Generation Info =====
+current generation number: 0
+INFO:GDPy.ga.engine:current generation number: 0
+number of relaxed in current generation: 0
+INFO:GDPy.ga.engine:number of relaxed in current generation: 0
+[]
+INFO:GDPy.ga.engine:[]
+number of unrelaxed in current generation: 3
+INFO:GDPy.ga.engine:number of unrelaxed in current generation: 3
+[2, 3, 4]
+INFO:GDPy.ga.engine:[2, 3, 4]
+end of current generation: False
+INFO:GDPy.ga.engine:end of current generation: False
+not converged yet...
+INFO:GDPy.ga.engine:not converged yet...
+
+
+===== Initial Population Calculation =====
+INFO:GDPy.ga.engine:
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+INFO:GDPy.ga.engine:
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+INFO:GDPy.ga.engine:@@@DriverBasedWorker+run
+Sun Oct  9 21:14:53 2022 cand2 cand2 is running...
+INFO:GDPy.ga.engine:Sun Oct  9 21:14:53 2022 cand2 cand2 is running...
+*** run-driver time:   0.4876 ***
+INFO:GDPy.ga.engine:*** run-driver time:   0.4876 ***
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 320, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 286, in run
+    _ = self.worker.run([atoms]) # retrieve later
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 191, in run
+    _ = func(job_info)
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 319, in _local_run
+    self.driver.run(atoms)
+  File "/users/40247882/repository/GDPy/GDPy/computation/ase.py", line 295, in run
+    dynamics.run(**run_params)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 122, in irun
+    self.atoms.get_forces()
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2614, in get_forces
+    forces = UnitCellFilter.get_forces(self, **kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2434, in get_forces
+    stress = self.atoms.get_stress(**kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/atoms.py", line 820, in get_stress
+    stress = self._calc.get_stress(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/abc.py", line 26, in get_stress
+    return self.get_property('stress', atoms)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/calculator.py", line 742, in get_property
+    raise PropertyNotImplementedError('{} not present in this '
+ase.calculators.calculator.PropertyNotImplementedError: stress not present in this calculation
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/utils/_global_options.py:58: UserWarning: Setting the GLOBAL value for jit fusion strategy to `[('DYNAMIC', 3)]` which is different than the previous value of `[('STATIC', 2), ('DYNAMIC', 10)]`
+  warnings.warn(
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/ase/nequip_calculator.py:73: UserWarning: Trying to use chemical symbols as NequIP type names; this may not be correct for your model! To avoid this warning, please provide `species_to_type_name` explicitly.
+  warnings.warn(
+
+
+===== Genetic Algorithm =====
+INFO:GDPy.ga.engine:
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+INFO:GDPy.ga.engine:
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+INFO:GDPy.ga.engine:
+
+===== register worker =====
+
+
+===== register generator =====
+INFO:GDPy.ga.engine:
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+INFO:GDPy.ga.engine:----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+INFO:GDPy.ga.engine:restart the database...
+
+
+===== register operators =====
+INFO:GDPy.ga.engine:
+
+===== register operators =====
+--- comparator ---
+INFO:GDPy.ga.engine:--- comparator ---
+Use comparator OFPComparator.
+INFO:GDPy.ga.engine:Use comparator OFPComparator.
+--- crossover ---
+INFO:GDPy.ga.engine:--- crossover ---
+Use crossover CutAndSplicePairing.
+INFO:GDPy.ga.engine:Use crossover CutAndSplicePairing.
+--- mutations ---
+INFO:GDPy.ga.engine:--- mutations ---
+mutation probability: 0.8
+INFO:GDPy.ga.engine:mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+INFO:GDPy.ga.engine:
+
+===== Generation Info =====
+current generation number: 0
+INFO:GDPy.ga.engine:current generation number: 0
+number of relaxed in current generation: 0
+INFO:GDPy.ga.engine:number of relaxed in current generation: 0
+[]
+INFO:GDPy.ga.engine:[]
+number of unrelaxed in current generation: 3
+INFO:GDPy.ga.engine:number of unrelaxed in current generation: 3
+[2, 3, 4]
+INFO:GDPy.ga.engine:[2, 3, 4]
+end of current generation: False
+INFO:GDPy.ga.engine:end of current generation: False
+not converged yet...
+INFO:GDPy.ga.engine:not converged yet...
+
+
+===== Initial Population Calculation =====
+INFO:GDPy.ga.engine:
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+INFO:GDPy.ga.engine:
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+INFO:GDPy.ga.engine:@@@DriverBasedWorker+run
+Sun Oct  9 21:14:58 2022 cand2 cand2 is running...
+INFO:GDPy.ga.engine:Sun Oct  9 21:14:58 2022 cand2 cand2 is running...
+*** run-driver time:   0.4665 ***
+INFO:GDPy.ga.engine:*** run-driver time:   0.4665 ***
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 320, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 286, in run
+    _ = self.worker.run([atoms]) # retrieve later
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 191, in run
+    _ = func(job_info)
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 319, in _local_run
+    self.driver.run(atoms)
+  File "/users/40247882/repository/GDPy/GDPy/computation/ase.py", line 295, in run
+    dynamics.run(**run_params)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 122, in irun
+    self.atoms.get_forces()
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2614, in get_forces
+    forces = UnitCellFilter.get_forces(self, **kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2434, in get_forces
+    stress = self.atoms.get_stress(**kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/atoms.py", line 820, in get_stress
+    stress = self._calc.get_stress(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/abc.py", line 26, in get_stress
+    return self.get_property('stress', atoms)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/calculator.py", line 742, in get_property
+    raise PropertyNotImplementedError('{} not present in this '
+ase.calculators.calculator.PropertyNotImplementedError: stress not present in this calculation
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/utils/_global_options.py:58: UserWarning: Setting the GLOBAL value for jit fusion strategy to `[('DYNAMIC', 3)]` which is different than the previous value of `[('STATIC', 2), ('DYNAMIC', 10)]`
+  warnings.warn(
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/ase/nequip_calculator.py:73: UserWarning: Trying to use chemical symbols as NequIP type names; this may not be correct for your model! To avoid this warning, please provide `species_to_type_name` explicitly.
+  warnings.warn(
+
+
+===== Genetic Algorithm =====
+INFO:GDPy.ga.engine:
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+INFO:GDPy.ga.engine:
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+INFO:GDPy.ga.engine:
+
+===== register worker =====
+
+
+===== register generator =====
+INFO:GDPy.ga.engine:
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+INFO:GDPy.ga.engine:----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+INFO:GDPy.ga.engine:restart the database...
+
+
+===== register operators =====
+INFO:GDPy.ga.engine:
+
+===== register operators =====
+--- comparator ---
+INFO:GDPy.ga.engine:--- comparator ---
+Use comparator OFPComparator.
+INFO:GDPy.ga.engine:Use comparator OFPComparator.
+--- crossover ---
+INFO:GDPy.ga.engine:--- crossover ---
+Use crossover CutAndSplicePairing.
+INFO:GDPy.ga.engine:Use crossover CutAndSplicePairing.
+--- mutations ---
+INFO:GDPy.ga.engine:--- mutations ---
+mutation probability: 0.8
+INFO:GDPy.ga.engine:mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+INFO:GDPy.ga.engine:
+
+===== Generation Info =====
+current generation number: 0
+INFO:GDPy.ga.engine:current generation number: 0
+number of relaxed in current generation: 0
+INFO:GDPy.ga.engine:number of relaxed in current generation: 0
+[]
+INFO:GDPy.ga.engine:[]
+number of unrelaxed in current generation: 3
+INFO:GDPy.ga.engine:number of unrelaxed in current generation: 3
+[2, 3, 4]
+INFO:GDPy.ga.engine:[2, 3, 4]
+end of current generation: False
+INFO:GDPy.ga.engine:end of current generation: False
+not converged yet...
+INFO:GDPy.ga.engine:not converged yet...
+
+
+===== Initial Population Calculation =====
+INFO:GDPy.ga.engine:
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+INFO:GDPy.ga.engine:
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+INFO:GDPy.ga.engine:@@@DriverBasedWorker+run
+Sun Oct  9 21:15:04 2022 cand2 cand2 is running...
+INFO:GDPy.ga.engine:Sun Oct  9 21:15:04 2022 cand2 cand2 is running...
+*** run-driver time:   0.4246 ***
+INFO:GDPy.ga.engine:*** run-driver time:   0.4246 ***
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 320, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 286, in run
+    _ = self.worker.run([atoms]) # retrieve later
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 191, in run
+    _ = func(job_info)
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 319, in _local_run
+    self.driver.run(atoms)
+  File "/users/40247882/repository/GDPy/GDPy/computation/ase.py", line 295, in run
+    dynamics.run(**run_params)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 122, in irun
+    self.atoms.get_forces()
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2614, in get_forces
+    forces = UnitCellFilter.get_forces(self, **kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2434, in get_forces
+    stress = self.atoms.get_stress(**kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/atoms.py", line 820, in get_stress
+    stress = self._calc.get_stress(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/abc.py", line 26, in get_stress
+    return self.get_property('stress', atoms)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/calculator.py", line 742, in get_property
+    raise PropertyNotImplementedError('{} not present in this '
+ase.calculators.calculator.PropertyNotImplementedError: stress not present in this calculation
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/utils/_global_options.py:58: UserWarning: Setting the GLOBAL value for jit fusion strategy to `[('DYNAMIC', 3)]` which is different than the previous value of `[('STATIC', 2), ('DYNAMIC', 10)]`
+  warnings.warn(
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/ase/nequip_calculator.py:73: UserWarning: Trying to use chemical symbols as NequIP type names; this may not be correct for your model! To avoid this warning, please provide `species_to_type_name` explicitly.
+  warnings.warn(
+
+
+===== Genetic Algorithm =====
+INFO:GDPy.ga.engine:
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+INFO:GDPy.ga.engine:
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+INFO:GDPy.ga.engine:
+
+===== register worker =====
+
+
+===== register generator =====
+INFO:GDPy.ga.engine:
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+INFO:GDPy.ga.engine:----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+INFO:GDPy.ga.engine:restart the database...
+
+
+===== register operators =====
+INFO:GDPy.ga.engine:
+
+===== register operators =====
+--- comparator ---
+INFO:GDPy.ga.engine:--- comparator ---
+Use comparator OFPComparator.
+INFO:GDPy.ga.engine:Use comparator OFPComparator.
+--- crossover ---
+INFO:GDPy.ga.engine:--- crossover ---
+Use crossover CutAndSplicePairing.
+INFO:GDPy.ga.engine:Use crossover CutAndSplicePairing.
+--- mutations ---
+INFO:GDPy.ga.engine:--- mutations ---
+mutation probability: 0.8
+INFO:GDPy.ga.engine:mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+INFO:GDPy.ga.engine:
+
+===== Generation Info =====
+current generation number: 0
+INFO:GDPy.ga.engine:current generation number: 0
+number of relaxed in current generation: 0
+INFO:GDPy.ga.engine:number of relaxed in current generation: 0
+[]
+INFO:GDPy.ga.engine:[]
+number of unrelaxed in current generation: 3
+INFO:GDPy.ga.engine:number of unrelaxed in current generation: 3
+[2, 3, 4]
+INFO:GDPy.ga.engine:[2, 3, 4]
+end of current generation: False
+INFO:GDPy.ga.engine:end of current generation: False
+not converged yet...
+INFO:GDPy.ga.engine:not converged yet...
+
+
+===== Initial Population Calculation =====
+INFO:GDPy.ga.engine:
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+INFO:GDPy.ga.engine:
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+INFO:GDPy.ga.engine:@@@DriverBasedWorker+run
+Sun Oct  9 21:15:09 2022 cand2 cand2 is running...
+INFO:GDPy.ga.engine:Sun Oct  9 21:15:09 2022 cand2 cand2 is running...
+*** run-driver time:   0.4223 ***
+INFO:GDPy.ga.engine:*** run-driver time:   0.4223 ***
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 320, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 286, in run
+    _ = self.worker.run([atoms]) # retrieve later
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 191, in run
+    _ = func(job_info)
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 319, in _local_run
+    self.driver.run(atoms)
+  File "/users/40247882/repository/GDPy/GDPy/computation/ase.py", line 295, in run
+    dynamics.run(**run_params)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 122, in irun
+    self.atoms.get_forces()
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2614, in get_forces
+    forces = UnitCellFilter.get_forces(self, **kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2434, in get_forces
+    stress = self.atoms.get_stress(**kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/atoms.py", line 820, in get_stress
+    stress = self._calc.get_stress(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/abc.py", line 26, in get_stress
+    return self.get_property('stress', atoms)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/calculator.py", line 742, in get_property
+    raise PropertyNotImplementedError('{} not present in this '
+ase.calculators.calculator.PropertyNotImplementedError: stress not present in this calculation
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/utils/_global_options.py:58: UserWarning: Setting the GLOBAL value for jit fusion strategy to `[('DYNAMIC', 3)]` which is different than the previous value of `[('STATIC', 2), ('DYNAMIC', 10)]`
+  warnings.warn(
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/nequip/ase/nequip_calculator.py:73: UserWarning: Trying to use chemical symbols as NequIP type names; this may not be correct for your model! To avoid this warning, please provide `species_to_type_name` explicitly.
+  warnings.warn(
+
+
+===== Genetic Algorithm =====
+INFO:GDPy.ga.engine:
+
+===== Genetic Algorithm =====
+
+Target of Global Optimisation is energy
+INFO:GDPy.ga.engine:
+Target of Global Optimisation is energy
+
+
+===== register worker =====
+INFO:GDPy.ga.engine:
+
+===== register worker =====
+
+
+===== register generator =====
+INFO:GDPy.ga.engine:
+
+===== register generator =====
+----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+INFO:GDPy.ga.engine:----- Generator Params -----
+type :bulk
+number_of_variable_cell_vectors: 3
+insertion region
+origin   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+xxxxxx   0.0000    0.0000    0.0000
+----- Bond Distance Minimum -----
+covalent ratio: 0.5
+        Pd       C  
+Pd    1.3900  1.0750
+C     1.0750  0.7600
+too_far: True, dist_to_slab: False
+note: default too far tolerance is 2 times
+
+restart the database...
+INFO:GDPy.ga.engine:restart the database...
+
+
+===== register operators =====
+INFO:GDPy.ga.engine:
+
+===== register operators =====
+--- comparator ---
+INFO:GDPy.ga.engine:--- comparator ---
+Use comparator OFPComparator.
+INFO:GDPy.ga.engine:Use comparator OFPComparator.
+--- crossover ---
+INFO:GDPy.ga.engine:--- crossover ---
+Use crossover CutAndSplicePairing.
+INFO:GDPy.ga.engine:Use crossover CutAndSplicePairing.
+--- mutations ---
+INFO:GDPy.ga.engine:--- mutations ---
+mutation probability: 0.8
+INFO:GDPy.ga.engine:mutation probability: 0.8
+Use mutation StrainMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation StrainMutation with prob 1.0.
+Use mutation SoftMutation with prob 1.0.
+INFO:GDPy.ga.engine:Use mutation SoftMutation with prob 1.0.
+
+
+===== Generation Info =====
+INFO:GDPy.ga.engine:
+
+===== Generation Info =====
+current generation number: 0
+INFO:GDPy.ga.engine:current generation number: 0
+number of relaxed in current generation: 0
+INFO:GDPy.ga.engine:number of relaxed in current generation: 0
+[]
+INFO:GDPy.ga.engine:[]
+number of unrelaxed in current generation: 3
+INFO:GDPy.ga.engine:number of unrelaxed in current generation: 3
+[2, 3, 4]
+INFO:GDPy.ga.engine:[2, 3, 4]
+end of current generation: False
+INFO:GDPy.ga.engine:end of current generation: False
+not converged yet...
+INFO:GDPy.ga.engine:not converged yet...
+
+
+===== Initial Population Calculation =====
+INFO:GDPy.ga.engine:
+
+===== Initial Population Calculation =====
+
+
+ ----- start to run structure 2 -----
+INFO:GDPy.ga.engine:
+
+ ----- start to run structure 2 -----
+@@@DriverBasedWorker+run
+INFO:GDPy.ga.engine:@@@DriverBasedWorker+run
+Sun Oct  9 21:15:14 2022 cand2 cand2 is running...
+INFO:GDPy.ga.engine:Sun Oct  9 21:15:14 2022 cand2 cand2 is running...
+*** run-driver time:   0.4253 ***
+INFO:GDPy.ga.engine:*** run-driver time:   0.4253 ***
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 320, in main
+    run_task(args.params, potter, referee, args.run)
+  File "/users/40247882/repository/GDPy/GDPy/task/task.py", line 17, in run_task
+    ga.run(pot_worker)
+  File "/users/40247882/repository/GDPy/GDPy/ga/engine.py", line 286, in run
+    _ = self.worker.run([atoms]) # retrieve later
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 191, in run
+    _ = func(job_info)
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/drive.py", line 319, in _local_run
+    self.driver.run(atoms)
+  File "/users/40247882/repository/GDPy/GDPy/computation/ase.py", line 295, in run
+    dynamics.run(**run_params)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/optimize/optimize.py", line 122, in irun
+    self.atoms.get_forces()
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2614, in get_forces
+    forces = UnitCellFilter.get_forces(self, **kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/constraints.py", line 2434, in get_forces
+    stress = self.atoms.get_stress(**kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/atoms.py", line 820, in get_stress
+    stress = self._calc.get_stress(self)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/abc.py", line 26, in get_stress
+    return self.get_property('stress', atoms)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/calculator.py", line 742, in get_property
+    raise PropertyNotImplementedError('{} not present in this '
+ase.calculators.calculator.PropertyNotImplementedError: stress not present in this calculation

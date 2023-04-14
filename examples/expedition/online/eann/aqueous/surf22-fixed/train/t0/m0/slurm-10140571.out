@@ -1,0 +1,4 @@
+Warning: A 'Shared Scratch' link exists but the target is not available on this node
+/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/eann/src/trainer.py:666: UserWarning: activate name Softplus is not supported, so use Relu_like one.
+  warnings.warn(
+slurmstepd: error: *** JOB 10140571 ON node168 CANCELLED AT 2022-09-03T17:45:28 DUE TO TIME LIMIT ***

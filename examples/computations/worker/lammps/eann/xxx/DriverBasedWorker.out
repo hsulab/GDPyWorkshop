@@ -1,0 +1,26 @@
+@@@DriverBasedWorker+run
+xxx JOBID: 10697157
+@@@DriverBasedWorker+run
+group-0 was submitted.
+@@@DriverBasedWorker+run
+group-0 was submitted.
+@@@DriverBasedWorker+run
+group-0 was submitted.
+@@@DriverBasedWorker+inspect
+group-0 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0525 ***
+new_frames: 2 energy of the first: -92.618994
+@@@DriverBasedWorker+run
+group-0 was submitted.
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+@@@DriverBasedWorker+run
+group-0 was submitted.
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0399 ***
+new_frames: 2 energy of the first: -92.618994

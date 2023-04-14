@@ -1,0 +1,59 @@
+{
+  "_default": {
+    "1": {
+      "uid": "0904771c-480f-11ed-9267-b07b25e985be",
+      "md5": "888f4bdf56c44f337d217714fb9a0367",
+      "gdir": "0904771c-480f-11ed-9267-b07b25e985becand2",
+      "group_number": 0,
+      "wdir_names": [
+        "cand2"
+      ],
+      "local": true,
+      "queued": true
+    },
+    "2": {
+      "uid": "0c6d1335-480f-11ed-aee5-b07b25e985be",
+      "md5": "888f4bdf56c44f337d217714fb9a0367",
+      "gdir": "0c6d1335-480f-11ed-aee5-b07b25e985becand2",
+      "group_number": 0,
+      "wdir_names": [
+        "cand2"
+      ],
+      "local": true,
+      "queued": true
+    },
+    "3": {
+      "uid": "0fb7be98-480f-11ed-ba9d-b07b25e985be",
+      "md5": "888f4bdf56c44f337d217714fb9a0367",
+      "gdir": "0fb7be98-480f-11ed-ba9d-b07b25e985becand2",
+      "group_number": 0,
+      "wdir_names": [
+        "cand2"
+      ],
+      "local": true,
+      "queued": true
+    },
+    "4": {
+      "uid": "12d4f3f9-480f-11ed-a26a-b07b25e985be",
+      "md5": "888f4bdf56c44f337d217714fb9a0367",
+      "gdir": "12d4f3f9-480f-11ed-a26a-b07b25e985becand2",
+      "group_number": 0,
+      "wdir_names": [
+        "cand2"
+      ],
+      "local": true,
+      "queued": true
+    },
+    "5": {
+      "uid": "1604d664-480f-11ed-bf33-b07b25e985be",
+      "md5": "888f4bdf56c44f337d217714fb9a0367",
+      "gdir": "1604d664-480f-11ed-bf33-b07b25e985becand2",
+      "group_number": 0,
+      "wdir_names": [
+        "cand2"
+      ],
+      "local": true,
+      "queued": true
+    }
+  }
+}

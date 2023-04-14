@@ -1,0 +1,47 @@
+collect:
+  traj_period: 20
+create:
+  AFIR:
+    dyn_params:
+      fmax: 0.1
+      steps: 200
+    ginit: 0.5
+    gintv: 0.1
+    gmax: 2.5
+    graph_params:
+      adsorbate_elements:
+      - C
+      - O
+      covalent_ratio: 1.1
+      graph_radius: 0
+      pbc_grid:
+      - 1
+      - 1
+      - 0
+      skin: 0.0
+    target_pairs:
+    - O
+    - CO
+select:
+- criteria:
+    method: cur
+    strategy: descent
+    zeta: -1
+  descriptor:
+    average: inner
+    lmax: 8
+    name: soap
+    nmax: 12
+    periodic: true
+    rcut: 6.0
+    sigma: 0.3
+    species:
+    - C
+    - O
+    - Pt
+  method: descriptor
+  number:
+  - 4
+  - 0.2
+systems:
+- s2CO+O

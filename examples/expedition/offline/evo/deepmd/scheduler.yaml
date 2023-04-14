@@ -1,0 +1,8 @@
+# - scheduler
+backend: slurm
+partition: k2-hipri
+time: "00:10:00"
+ntasks: 1
+mem-per-cpu: 4G
+environs: "conda activate deepmd\n"
+user_commands: "for i in `seq 5`\ndo\n  gdp -p ./worker.yaml task ./task.yaml\ndone"

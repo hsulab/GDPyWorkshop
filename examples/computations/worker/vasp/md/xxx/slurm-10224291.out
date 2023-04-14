@@ -1,0 +1,15 @@
+Warning: A 'Shared Scratch' link exists but the target is not available on this node
+Traceback (most recent call last):
+  File "/users/40247882/repository/GDPy/bin/gdp", line 10, in <module>
+    sys.exit(main())
+  File "/users/40247882/repository/GDPy/GDPy/main.py", line 314, in main
+    run_driver(args.STRUCTURE, args.directory, potter)
+  File "/users/40247882/repository/GDPy/GDPy/computation/worker/__init__.py", line 38, in run_driver
+    driver.run(atoms, read_exists=True, extra_info=None)
+  File "/users/40247882/repository/GDPy/GDPy/computation/vasp.py", line 184, in run
+    self.calc.set(**run_params)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/vasp/vasp.py", line 228, in set
+    GenerateVaspInput.set(self, **kwargs)
+  File "/mnt/scratch2/chemistry-apps/dkb01416/miniconda39/envs/catorch2/lib/python3.9/site-packages/ase/calculators/vasp/create_input.py", line 1065, in set
+    raise TypeError('Parameter not defined: ' + key)
+TypeError: Parameter not defined: Tdamp

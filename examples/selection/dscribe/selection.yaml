@@ -1,0 +1,18 @@
+selection:
+  - method: descriptor
+    descriptor:
+      name: soap
+      species: ["H", "O", "Pt"]
+      rcut : 6.0
+      nmax : 12
+      lmax : 8
+      sigma : 0.3
+      average : inner
+      periodic : true
+    sparsify:
+      method: cur
+      zeta: -1
+      strategy: descent
+      #method: fps
+      #method: cls
+    number: [16, 1.0]

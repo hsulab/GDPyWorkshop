@@ -1,0 +1,29 @@
+selection:
+  last:
+    - method: property
+      properties:
+        atomic_energy: # total energy
+          range: [-10., 5.]
+    - method: property
+      properties:
+        forces:
+          range: [0.01, 0.50]
+          metric: 
+            - fabs
+            - max
+      number: [10, 0.2]
+  traj:
+    - method: property
+      properties:
+        atomic_energy: # total energy
+          range: [-10., 5.]
+    - method: property
+      properties:
+        atomic_energy: # total energy
+          range: [-10., 5.]
+        forces:
+          range: [0.01, 0.20]
+          metric: 
+            - fabs
+            - max
+      number: [10, 0.2]

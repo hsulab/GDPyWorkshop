@@ -1,0 +1,8 @@
+Warning: A 'Shared Scratch' link exists but the target is not available on this node
+nframes:  4
+Atoms(symbols='COPt16', pbc=True, cell=[[5.610200000000001, 0.0, 0.0], [-2.8051, 4.85857572, 0.0], [0.0, 0.0, 18.871]], forces=..., momenta=..., calculator=Vasp(...))
+Atoms(symbols='COPt16', pbc=True, cell=[[5.610200000000001, 0.0, 0.0], [-2.8051, 4.85857572, 0.0], [0.0, 0.0, 18.871]], forces=..., momenta=..., calculator=Vasp(...))
+Atoms(symbols='COPt16', pbc=True, cell=[[5.610200000000001, 0.0, 0.0], [-2.8051, 4.85857572, 0.0], [0.0, 0.0, 18.871]], forces=..., momenta=..., calculator=Vasp(...))
+Atoms(symbols='COPt16', pbc=True, cell=[[5.610200000000001, 0.0, 0.0], [-2.8051, 4.85857572, 0.0], [0.0, 0.0, 18.871]], forces=..., momenta=..., calculator=Vasp(...))
+*** run-driver time: 107.8666 ***
+[-109.14100282, -109.07383818, -108.99395241, -108.83319111]

@@ -1,0 +1,168 @@
+
+Start at Thu Sep 29 00:25:28 2022
+
+
+
+===== Explore System s2CO+O =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 3
+--- candidate 0 ---
+--- candidate 1 ---
+--- candidate 2 ---
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+*** read-structure time:   1.0968 ***
+Collect is FINISHED.
+
+
+===== current status: select  =====
+@@@DescriptorBasedSelector
+run selection...
+start calculating features...
+soap descriptor dimension: 5994
+finished calculating features...
+dscribe nframes 6 -> nselected 4
+@@@DescriptorBasedSelector
+run selection...
+start calculating features...
+soap descriptor dimension: 5994
+finished calculating features...
+dscribe nframes 6 -> nselected 4
+@@@DescriptorBasedSelector
+run selection...
+start calculating features...
+soap descriptor dimension: 5994
+finished calculating features...
+
+Start at Thu Sep 29 00:38:44 2022
+
+
+
+===== Explore System s2CO+O =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 3
+--- candidate 0 ---
+--- candidate 1 ---
+--- candidate 2 ---
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+*** read-structure time:   0.0677 ***
+Collect is FINISHED.
+
+
+===== current status: select  =====
+@@@DescriptorBasedSelector
+use cached...
+dscribe nframes 6 -> nselected 4
+@@@DescriptorBasedSelector
+use cached...
+dscribe nframes 6 -> nselected 4
+@@@DescriptorBasedSelector
+run selection...
+start calculating features...
+soap descriptor dimension: 5994
+finished calculating features...
+
+Start at Thu Sep 29 00:41:13 2022
+
+
+
+===== Explore System s2CO+O =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 3
+--- candidate 0 ---
+--- candidate 1 ---
+--- candidate 2 ---
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+*** read-structure time:   0.0701 ***
+Collect is FINISHED.
+
+
+===== current status: select  =====
+@@@DescriptorBasedSelector
+use cached...
+dscribe nframes 6 -> nselected 4
+@@@DescriptorBasedSelector
+use cached...
+dscribe nframes 6 -> nselected 4
+@@@DescriptorBasedSelector
+run selection...
+start calculating features...
+soap descriptor dimension: 5994
+finished calculating features...
+dscribe nframes 61 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+Reference worker is not set properly.
+
+Start at Thu Sep 29 00:42:13 2022
+
+
+
+===== Explore System s2CO+O =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 3
+--- candidate 0 ---
+--- candidate 1 ---
+--- candidate 2 ---
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+*** read-structure time:   0.0682 ***
+Collect is FINISHED.
+
+
+===== current status: select  =====
+@@@DescriptorBasedSelector
+run selection...
+start calculating features...
+soap descriptor dimension: 5994
+finished calculating features...
+dscribe nframes 6 -> nselected 4
+@@@DescriptorBasedSelector
+run selection...
+start calculating features...
+soap descriptor dimension: 5994
+finished calculating features...
+dscribe nframes 6 -> nselected 4
+@@@DescriptorBasedSelector
+run selection...
+start calculating features...
+soap descriptor dimension: 5994
+finished calculating features...
+dscribe nframes 61 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+Reference worker is not set properly.

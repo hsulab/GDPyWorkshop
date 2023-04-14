@@ -1,0 +1,27 @@
+potential:
+  name: eann
+  params:
+    backend: lammps
+    command: "mpirun -n 2 lmp_cat -in in.lammps 2>&1 > lmp.out"
+    directory: "LmpMin-worker"
+    type_list:
+      - Cr
+      - O
+      - Zn
+    pair_style: eann /mnt/scratch2/chemistry-apps/ylh/ZnCrO/model1-lmp_DOUBLE.pt
+driver:
+  backend: external
+  task: md
+  init:
+    min_style: nvt
+    timestep: 2.0 # fs
+    dump_period: 100
+  run:
+    steps: 500
+    constraint: "zpos 8.0"
+scheduler: # NOTE: not used in mc
+  backend: slurm
+  partition: k2-hipri
+  ntasks: 2
+  time: "00:03:00"
+  environs: "source ~/envs/source_eann.sh\nconda activate catorch2"

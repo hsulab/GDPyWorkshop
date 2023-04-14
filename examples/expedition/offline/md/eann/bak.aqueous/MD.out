@@ -1,0 +1,2467 @@
+
+Start at Tue Sep 27 23:26:39 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+cand0: 10194690
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+cand0: 10194691
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+cand0: 10194692
+@@@DriverBasedWorker+inspect
+cand0 is running...
+Creation is not finished...
+
+Start at Tue Sep 27 23:27:10 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+cand0 is finished...
+@@@DriverBasedWorker+inspect
+cand0 is finished...
+@@@DriverBasedWorker+inspect
+cand0 is finished...
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0095 ***
+new_frames: 2 -109.02368
+worker 0 retrieves 2 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0071 ***
+new_frames: 2 -108.88746
+worker 1 retrieves 2 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0074 ***
+new_frames: 2 -108.66968
+worker 2 retrieves 2 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+
+Start at Tue Sep 27 23:28:08 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  ncandidates: 6 nselected: 6
+  @dscribe-s1
+  ncandidates: 6 nselected: 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Tue Sep 27 23:32:04 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+
+Start at Tue Sep 27 23:32:37 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+
+Start at Tue Sep 27 23:33:09 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+
+Start at Tue Sep 27 23:34:29 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  ncandidates: 6 nselected: 6
+  @dscribe-s1
+
+Start at Tue Sep 27 23:35:00 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  ncandidates: 6 nselected: 6
+  @dscribe-s1
+
+Start at Tue Sep 27 23:35:48 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  ncandidates: 6 nselected: 6
+  @dscribe-s1
+
+Start at Tue Sep 27 23:36:05 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  ncandidates: 6 nselected: 6
+  @dscribe-s1
+  ncandidates: 6 nselected: 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 16:56:26 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+
+Start at Wed Sep 28 16:57:14 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  ncandidates: 6 nselected: 6
+  @dscribe-s1
+  ncandidates: 6 nselected: 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 17:10:54 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 17:12:41 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 17:31:12 2022
+
+
+Start at Wed Sep 28 17:32:47 2022
+
+
+Start at Wed Sep 28 17:32:54 2022
+
+
+Start at Wed Sep 28 17:35:26 2022
+
+
+Start at Wed Sep 28 17:39:45 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+run selection...
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 17:41:35 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method devi-dscribe---
+@@@ComposedSelector
+run selection...
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+devi-dscribe nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 19:34:55 2022
+
+
+Start at Wed Sep 28 19:40:04 2022
+
+
+Start at Wed Sep 28 19:40:56 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+
+Start at Wed Sep 28 19:42:44 2022
+
+
+Start at Wed Sep 28 19:44:27 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 19:47:41 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 19:52:20 2022
+
+
+Start at Wed Sep 28 19:52:44 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+--- start subgroup traj ---
+  ncandidates: 6
+@devi-s0
+@dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 19:53:31 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 19:54:14 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+--- start subgroup traj ---
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 19:57:57 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup traj @@@
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 20:13:26 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup traj @@@
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 20:13:43 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup traj @@@
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+Cant find selected structure file with tag converged
+Cant find selected structure file with tag traj
+
+Start at Wed Sep 28 20:22:27 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+
+Start at Wed Sep 28 20:23:35 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 0
+  @devi-s0
+
+Start at Wed Sep 28 20:26:08 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+
+Start at Wed Sep 28 20:28:47 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 0
+  @devi-s0
+  @dscribe-s1
+@@@ start subgroup traj @@@
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 20:31:25 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 0
+  @devi-s0
+  @dscribe-s1
+
+Start at Wed Sep 28 20:31:44 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 0
+  @devi-s0
+  @dscribe-s1
+@@@ start subgroup traj @@@
+  ncandidates: 6
+  @devi-s0
+  @dscribe-s1
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 20:33:06 2022
+
+
+Start at Wed Sep 28 20:34:03 2022
+
+
+Start at Wed Sep 28 20:34:41 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 0
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 6
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 20:42:49 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 20:44:12 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 20:44:32 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 21:04:13 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+--- Selection Method composed---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 21:14:49 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 21:15:07 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 21:36:09 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+Reference worker is not set properly.
+
+Start at Wed Sep 28 21:36:32 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+
+Start at Wed Sep 28 21:36:50 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+mixed 4
+@@@DriverBasedWorker+run
+Use confids as ['cand0', 'cand1', 'cand2', 'cand3']
+g0: 10197795
+@@@DriverBasedWorker+inspect
+g0 is running...
+jobs are running...
+
+Start at Wed Sep 28 21:43:40 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+
+Start at Wed Sep 28 21:43:52 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+mixed 4
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+g0 is running...
+jobs are running...
+
+Start at Wed Sep 28 21:47:32 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+
+Start at Wed Sep 28 21:47:58 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+mixed 4
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+g0 is running...
+jobs are running...
+
+Start at Wed Sep 28 21:53:53 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+mixed 4
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+g0 is finished...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.6783 ***
+new_frames: 4 energy of the first: -109.07383818
+nframes newly added: 4
+/users/40247882/repository/GDPy/examples/expedition/offline/dynamics/eann/set/Pt111s22ads-C1O1Pt16/surf22-fixed-MD-mixed-unknown.xyz
+
+Start at Wed Sep 28 22:01:06 2022
+
+
+Start at Wed Sep 28 22:01:37 2022
+
+
+Start at Wed Sep 28 22:02:07 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 0 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 1 retrieves 0 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+worker 2 retrieves 0 structures...
+total nframes: 6
+Collect is FINISHED.
+
+
+===== current status: select  =====
+--- Selection ---
+@@@ComposedSelector
+run selection...
+@@@ start subgroup converged @@@
+  ncandidates: 2
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+@@@ start subgroup traj @@@
+  ncandidates: 4
+  @invariant-s0
+  @devi-s1
+  @dscribe-s2
+composed nframes 6 -> nselected 4
+Select is FINISHED.
+
+
+===== current status: label  =====
+mixed 4
+@@@DriverBasedWorker+run
+Use ordered confids...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+/users/40247882/repository/GDPy/examples/expedition/offline/dynamics/eann/set/Pt111s22ads-C1O1Pt16/surf22-fixed-MD-mixed-unknown.xyz
+
+Start at Wed Sep 28 22:02:24 2022
+
+
+Start at Wed Sep 28 22:02:53 2022
+
+
+Start at Wed Sep 28 22:05:32 2022
+
+Found inconsistent params for aqueous...
+['systems']
+
+Start at Wed Sep 28 22:05:52 2022
+
+Found inconsistent params for aqueous...
+['select']

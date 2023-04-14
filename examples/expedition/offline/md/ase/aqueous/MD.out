@@ -1,0 +1,68 @@
+
+Start at Sun Sep  4 15:46:36 2022
+
+
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+608807ae-2c60-11ed-92f6-525400692cc9-cand0 cand0 is running...
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+649f28ca-2c60-11ed-96ac-525400692cc9-cand0 cand0 is running...
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+64e08330-2c60-11ed-b390-525400692cc9-cand0 cand0 is running...
+@@@DriverBasedWorker+inspect
+cand0 is finished...
+@@@DriverBasedWorker+inspect
+cand0 is finished...
+@@@DriverBasedWorker+inspect
+cand0 is finished...
+Creation is FINISHED.
+
+
+===== current status: collect  =====
+DirectGenerator
+number of initial structures: 1
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0074 ***
+new_frames: 2 -108.95064063427031
+worker 0 retrieves 2 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0067 ***
+new_frames: 2 -108.88491792186913
+worker 1 retrieves 2 structures...
+@@@DriverBasedWorker+inspect
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0080 ***
+new_frames: 2 -108.573318317248
+worker 2 retrieves 2 structures...
+total nframes: 6
+@@@DescriptorBasedSelector
+start calculating features...
+descriptor dimension: 10584
+finished calculating features...
+nframes 6 -> nselected 1
+Collect/Select is FINISHED.
+
+
+===== current status: label  =====
+Cant find selected structure file with tag converged
+found selected structure file aqueous/surf22-fixed/select/traj-descriptor-selection.xyz
+nframes: 1
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+cand0: 10140817
+@@@DriverBasedWorker+inspect
+cand0 is running...
+jobs are running...

@@ -1,0 +1,25 @@
+batchsize: 3
+potential:
+  name: vasp
+  # backend: vasp
+  params:
+    pp_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential
+    vdw_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential
+    incar: /mnt/scratch2/users/40247882/pbe-oxides/input-files/incars/INCAR_OXIDE_MAG
+    kpts: [1, 1, 1] # mesh or kspacing
+    command: mpirun -n 4 /mnt/scratch2/chemistry-apps/dkb01416/vasp/installed/intel-2016/5.4.4-ccc/vasp_gam 2>&1 > vasp.out
+driver:
+  backend: external
+  task: min
+  #init:
+  run:
+    steps: 4
+    fmax: 1.0
+    constraint: "1"
+# - scheduler
+scheduler: # TODO: check potential command is consistent with resources
+  backend: slurm
+  partition: k2-hipri
+  ntasks: 4
+  time: "00:03:00"
+  environs: "source ~/envs/source_lasp.sh\nconda activate catorch2"

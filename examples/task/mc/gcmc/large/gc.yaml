@@ -1,0 +1,19 @@
+task: mc
+system:
+  reservoir: 
+    temperature: 300 # K
+    pressure: 0.001  # bar
+    species:
+      O:
+        total_energy: -9.196 # use sp O2
+        zpe: 0.09714 # eV
+        dU: 8.683 # kJ/mol
+        dS: 205.147 # J/mol
+        coef: 0.5
+  substrate: ./Pt755-s2x6.xyz
+  region: 
+    caxis: [6.5, 16.5]
+    covalent_ratio: [1.0, 2.0] # too small may make structure collapse
+    max_movedisp: 2.0 # minimum distance between atoms, not used for now
+probabilities: [0.5, 0.5] # move and exchange
+random_seed: 1112

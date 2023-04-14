@@ -1,0 +1,48 @@
+collect:
+  traj_period: 2
+create:
+  driver:
+    backend: external
+    init:
+      dump_period: 8
+    run:
+      steps: 12
+    task: min
+select:
+- fmax: 0.05
+  method: convergence
+- criteria:
+    atomic_energy:
+    - 0.01
+    - 0.25
+    force:
+    - 0.05
+    - 0.25
+  method: deviation
+  properties:
+    atomic_energy: max_devi_e
+    force: max_devi_f
+- criteria:
+    method: cur
+    strategy: descent
+    zeta: -1
+  descriptor:
+    average: inner
+    lmax: 8
+    name: soap
+    nmax: 12
+    periodic: true
+    rcut: 6.0
+    sigma: 0.3
+    species:
+    - C
+    - H
+    - O
+    - Pt
+  method: descriptor
+  number:
+  - 4
+  - 0.2
+  random_seed: 1112
+systems:
+- s1CO+O

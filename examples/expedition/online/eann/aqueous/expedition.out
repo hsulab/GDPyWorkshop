@@ -1,0 +1,117 @@
+
+Start at Sat Sep  3 17:14:16 2022
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+Use prepared calculator+driver...
+dump_period: 50 traj_period: 20
+tot: 2000 block: 1000 nblocks: 3
+start_block: 0
+ADD init dataset, 480...
+
+
+----- block        0 -----
+step:        0 temp:     270.0003 ke:       0.3490 pe:    -109.1307
+step:       50 temp:     146.8285 ke:       0.1898 pe:    -108.9087
+step:      100 temp:     200.1465 ke:       0.2587 pe:    -108.8231
+step:      150 temp:     239.4803 ke:       0.3096 pe:    -108.7637
+step:      200 temp:     316.1055 ke:       0.4086 pe:    -108.7105
+step:      250 temp:     401.6206 ke:       0.5191 pe:    -108.7727
+step:      300 temp:     302.0322 ke:       0.3904 pe:    -108.7576
+step:      350 temp:     242.9264 ke:       0.3140 pe:    -108.8615
+step:      400 temp:     170.4748 ke:       0.2204 pe:    -108.9109
+step:      450 temp:     159.6058 ke:       0.2063 pe:    -108.8497
+step:      500 temp:     241.8438 ke:       0.3126 pe:    -108.8347
+step:      550 temp:     403.7527 ke:       0.5219 pe:    -108.9411
+step:      600 temp:     229.2725 ke:       0.2964 pe:    -108.7548
+step:      650 temp:     234.6332 ke:       0.3033 pe:    -108.7804
+step:      700 temp:     169.1534 ke:       0.2186 pe:    -108.7567
+step:      750 temp:     191.9029 ke:       0.2481 pe:    -108.7817
+step:      800 temp:     216.2165 ke:       0.2795 pe:    -108.6857
+step:      850 temp:     314.6983 ke:       0.4068 pe:    -108.6404
+step:      900 temp:     402.0198 ke:       0.5197 pe:    -108.7359
+step:      950 temp:     228.1393 ke:       0.2949 pe:    -108.7264
+step:     1000 temp:     183.8626 ke:       0.2377 pe:    -108.7371
+num_traj_frames: 21
+SELECTION: s0
+confids: 0 150 800 850
+Found 4 structures need label...
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+Use confids as ['cand150']
+Use confids as ['cand800']
+Use confids as ['cand850']
+cand0: 10140567
+cand150: 10140568
+cand800: 10140569
+cand850: 10140570
+@@@DriverBasedWorker+inspect
+cand0 is running...
+cand150 is running...
+cand800 is running...
+cand850 is running...
+@@@DriverBasedWorker+retrieve
+break, wait for labelling...
+
+Start at Sat Sep  3 17:15:15 2022
+
+===== Explore System surf22-fixed =====
+reading initial structures...
+try to use generator...
+Use prepared calculator+driver...
+dump_period: 50 traj_period: 20
+tot: 2000 block: 1000 nblocks: 3
+start_block: 0
+ADD init dataset, 480...
+
+
+----- block        0 -----
+step:        0 temp:     270.0003 ke:       0.3490 pe:    -109.1307
+step:       50 temp:     146.8285 ke:       0.1898 pe:    -108.9087
+step:      100 temp:     200.1465 ke:       0.2587 pe:    -108.8231
+step:      150 temp:     239.4803 ke:       0.3096 pe:    -108.7637
+step:      200 temp:     316.1055 ke:       0.4086 pe:    -108.7105
+step:      250 temp:     401.6206 ke:       0.5191 pe:    -108.7727
+step:      300 temp:     302.0322 ke:       0.3904 pe:    -108.7576
+step:      350 temp:     242.9264 ke:       0.3140 pe:    -108.8615
+step:      400 temp:     170.4748 ke:       0.2204 pe:    -108.9109
+step:      450 temp:     159.6058 ke:       0.2063 pe:    -108.8497
+step:      500 temp:     241.8438 ke:       0.3126 pe:    -108.8347
+step:      550 temp:     403.7527 ke:       0.5219 pe:    -108.9411
+step:      600 temp:     229.2725 ke:       0.2964 pe:    -108.7548
+step:      650 temp:     234.6332 ke:       0.3033 pe:    -108.7804
+step:      700 temp:     169.1534 ke:       0.2186 pe:    -108.7567
+step:      750 temp:     191.9029 ke:       0.2481 pe:    -108.7817
+step:      800 temp:     216.2165 ke:       0.2795 pe:    -108.6857
+step:      850 temp:     314.6983 ke:       0.4068 pe:    -108.6404
+step:      900 temp:     402.0198 ke:       0.5197 pe:    -108.7359
+step:      950 temp:     228.1393 ke:       0.2949 pe:    -108.7264
+step:     1000 temp:     183.8626 ke:       0.2377 pe:    -108.7371
+num_traj_frames: 21
+SELECTION: s1
+confids: 0 150 800 850
+Found 4 structures need label...
+@@@DriverBasedWorker+run
+Use confids as ['cand0']
+Use confids as ['cand150']
+Use confids as ['cand800']
+Use confids as ['cand850']
+@@@DriverBasedWorker+inspect
+cand0 is finished...
+cand150 is finished...
+cand800 is finished...
+cand850 is finished...
+@@@DriverBasedWorker+retrieve
+*** read-results time:   0.0843 ***
+new_frames: 4 -76.74833699
+TRAIN at t0, 2 models...
+dataset size (nframes): 484
+@@@TrainWorker+run
+m0: 10140571
+m1: 10140572
+@@@TrainWorker+inspect
+m0 is running...
+m1 is running...
+@@@TrainWorker+retrieve
+break, wait for training...

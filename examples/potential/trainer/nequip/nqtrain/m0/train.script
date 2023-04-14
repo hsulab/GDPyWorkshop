@@ -1,0 +1,15 @@
+#!/bin/bash -l
+#SBATCH --job-name=30f4c52d-4d5f-11ed-bb84-525400692cc9-m0
+#SBATCH --partition=k2-gpu
+#SBATCH --time=01:00:00
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem-per-cpu=4G
+#SBATCH --gres=gpu:v100:1
+
+
+conda activate catorch2
+
+
+nequip-train config.yaml 2>&1 > train.out
+nequip-deploy build --train-dir ./auto ./deployed_model.pth 2>&1 > freeze.out

@@ -1,0 +1,29 @@
+
+Start at Sun Oct  9 21:06:08 2022
+
+
+
+===== Explore System Cu4 =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+@@@CommandWorker+run
+create: 10224256
+@@@CommandWorker+inspect
+create is running...
+Creation is not finished...
+
+
+===== Explore System Cu8 =====
+reading initial structures...
+try to use generator...
+
+
+===== current status: create  =====
+@@@CommandWorker+run
+create: 10224257
+@@@CommandWorker+inspect
+create is running...
+Creation is not finished...

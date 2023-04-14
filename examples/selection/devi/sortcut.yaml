@@ -1,0 +1,4 @@
+# reduce number of minima
+selection:
+  - method: sortcut
+    number: [50, 1.0]

@@ -1,0 +1,43 @@
+selection:
+  #- method: deviation
+  #  criteria:
+  #    max_devi_f: [0.05, 50.50]
+  #- method: property
+  #  criteria:
+  #    - name: withinrange
+  #      atomic_energy: [null, 10.]
+  #      max_devi_f: [0.05, 50.50]
+  #    - name: sortcut
+  #      atomic_energy: 50 # reverse?
+  #    - name: boltzmann
+  #      kBT: 3 # eV
+  #- method: sortcut # pareto
+  #  #worker: ./worker.yaml
+  #  properties:
+  #    energy:
+  #      weight: 1.0
+  #      #uniform: true
+  #  number: [50, 1.0]
+  - method: filter
+    properties:
+      #atomic_energy: # total energy
+      #  bound: [-10., 5.]
+      #  #metric:
+      #max_devi_f: 
+      #  range: [0.05, 50.50]
+      #  #reverse: true
+      forces:
+        range: [10., 40.]
+        metric: 
+          - fabs
+          - max
+      energy:
+        sparsify: sort
+    number: [10, 0.2]
+  #- method: boltz
+  #  #reverse: true
+  #  properties:
+  #    energy: 
+  #      kBT: 3.0 # eV, exp(-dE/kBT)
+  #      # temperature
+  #      # expression

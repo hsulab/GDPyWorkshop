@@ -1,0 +1,16 @@
+potential: # params for label
+  name: vasp
+  # vasp_params
+  # backend: vasp
+  params:
+    pp_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential
+    vdw_path: /mnt/scratch2/chemistry-apps/dkb01416/vasp/PseudoPotential
+    incar: /users/40247882/repository/GDPy/examples/resources/INCAR_TEST # TODO: make its path resolved
+    command: mpirun -n 32 /mnt/scratch2/chemistry-apps/dkb01416/vasp/installed/intel-2016/5.4.4-ccc/vasp_std 2>&1 > vasp.out
+scheduler: # NOTE: can be replaced by a script file
+  backend: slurm
+  partition: k2-hipri
+  time: "0:30:00"
+  nodes: 1
+  ntasks: 32
+  environs: "source ~/envs/source_intel-2016.sh\nconda activate catorch2"

@@ -1,0 +1,6 @@
+#  index    confid    natoms  AtomicEnergy      MaxForce      CurScore
+       0        -1        41       -6.0110        0.9245        0.2497
+       1        -1        41       -6.0111        1.1641        0.2499
+       4        -1        41       -6.0075        1.7394        0.1198
+       5        -1        41       -6.0075        1.5799        0.1220
+# random_seed None
